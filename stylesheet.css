@@ -1,0 +1,27 @@
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #fff;
+}
+
+h1 {
+	color: #fff;
+}
+
+#jumbo {
+	background-color: #3D8AF7;
+	text-align: center;
+}
+
+#jumbo img {
+	height: 15em;
+	border-radius: 50%;
+	margin-bottom: 2em;
+}
+
+p {
+	color: #fff;
+}
