@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html>
 	<head>
 		<title>Markus Tyrkkö</title>
 		<meta charset="utf-8" />
@@ -13,11 +13,79 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row" id="jumbo">
-				<h1>Tervetuloa!</h1>
+				<h1 lang="fi" class="col-md-2 col-md-offset-5">Tervetuloa!</h1>
+				<h1 lang="en" class="col-md-2 col-md-offset-5 hidden">Welcome!</h1>
+				<div class="col-md-1 col-md-offset-4" id="langOpt">
+					<p class="col-md-5 active" onclick="fi()" id="fi">FI</p>
+					<p class="col-md-5 col-md-offset-1" onclick="en()" id="en">EN</p>
+				</div>
 				<img src="Profiili.jpg" alt="Markus Tyrkkö" class="col-md-2 col-md-offset-5"/>
-				<p class="col-md-6 col-md-offset-3">Hei, olen 21-vuotias teekkari Espoosta. Opiskelen toista vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href="https://github.com/Marcholio">GitHubin puolella</a>.</p>
+				<p lang="fi" class="col-md-6 col-md-offset-3">Hei, olen 21-vuotias teekkari Espoosta. Opiskelen toista vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href="https://github.com/Marcholio">GitHubin puolella</a>.</p>
+				<p lang="en" class="col-md-6 col-md-offset-3 hidden">Hi, I'm a 21-year-old technology student from Espoo, Finland. I'm studying my second year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href="https://github.com/Marcholio">GitHub</a>.</p>
+			</div>
+			<div class="row col-md-12" id="bar">
+				<h2 lang="fi">Projektit</h2>
+				<h2 lang="en" class="hidden">Projects</h2>
+			</div>
+			<div class="row">
+				<div class="project1 col-md-6">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2 col-md-offset-2"/>
+					<div lang="fi" class="col-md-8">
+						<h3>Projektin nimi</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+					<div lang="en" class="col-md-8 hidden">
+						<h3>Project name</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+				</div>
+				<div class="project2 col-md-6">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2"/>
+					<div lang="fi" class="col-md-8">
+						<h3>Projektin nimi</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+					<div lang="en" class="col-md-8 hidden">
+						<h3>Project name</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="project2 col-md-6">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2 col-md-offset-2"/>
+					<div lang="fi" class="col-md-8">
+						<h3>Projektin nimi</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+					<div lang="en" class="col-md-8 hidden">
+						<h3>Project name</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+				</div>
+				<div class="project1 col-md-6">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2"/>
+					<div lang="fi" class="col-md-8">
+						<h3>Projektin nimi</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+					<div lang="en" class="col-md-8 hidden">
+						<h3>Project name</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+				</div>
 			</div>
 		</div>
+		<footer>
+			<div>
+				&copy;
+				<span class="vcard">
+					<span class="fn">Markus Tyrkkö</span>
+					<span class="mail">&#109;&#097;&#114;&#107;&#117;&#115;&#046;&#116;&#121;&#114;&#107;&#107;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</span>
+				</span>
+			</div>
+		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="effects.js"></script>
 	</body>
 </html>

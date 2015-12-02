@@ -7,21 +7,74 @@ a:hover {
 	color: #fff;
 }
 
+.active {
+	text-decoration: underline;
+}
+
+#bar {
+	background-color: #3E6680;
+	text-align: center;
+	color: #fff;
+	padding-bottom: .5em;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+footer {
+	background-color: #3E6680;
+	text-align: center;
+	color: #fff;
+}
+
+footer .fn {
+	margin-right: 10%;
+}
+
 h1 {
 	color: #fff;
+}
+
+h3 {
+	color: #fff;
+}
+
+hidden {
+	display: none;
 }
 
 #jumbo {
 	background-color: #3D8AF7;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 #jumbo img {
-	height: 15em;
 	border-radius: 50%;
 	margin-bottom: 2em;
 }
 
+#langOpt {
+	padding: 1em;
+}
+
+#langOpt p:hover {
+	cursor: pointer;
+}
+
 p {
 	color: #fff;
+}
+
+.project1 {
+	background-color: #0496FF;
+}
+
+.project2 {
+	background-color: #027BCE;
+}
+
+.row {
+	margin: 0;
 }
