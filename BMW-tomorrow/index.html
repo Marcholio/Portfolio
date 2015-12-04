@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<title> BMW Tomorrow </title>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Markus Tyrkkö" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="stylesheet_index.css" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quantico:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		
+	</head>
+
+	<body>
+		<header>
+			<img src="BMW-logo.png" alt="BMW">
+			<p>Forerunner on its path</p>
+			<div id="flags">
+				<img src="FIN.png" alt="FIN">
+				<a href="index_ENG.html"><img src="ENG.png" alt="ENG"></a>
+			</div>
+			
+			<nav class="dropdown">
+				<button class="dropdown-toggle" data-toggle="dropdown">Valikko</button>
+				<ul class="dropdown-menu">
+					<li class="active">Etusivu</li>
+					<li><a href="models.html">Mallit</a></li>
+					<li><a href="media.html">Media</a></li>
+					<li><a href="contact.html">Ota yhteyttä</a></li>
+					<li id="mobile-lang"><a href="index_ENG.html">In English</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<section id="Video">
+			<video controls poster="Videoposter2.png">
+				<source src="BMWtrailer.webm" type="video/webm" />
+				<source src="BMWtrailer.mp4" type="video/mp4" />
+				<source src="BMWtrailer.ogv" type="video/ogg" />
+				Your browser doesn't support video elements
+			</video>
+
+			<h2>BMW Tomorrow</h2>
+			<p>BMW Tomorrow on BMW:n vastaus automatisaation tuomiin haasteisiin ja mahdollisuuksiin. Se yhdistää uusimman teknologian lähes sadan vuoden kokemukseen innovatiivisesti ja sulavasti. Sen tekniset ratkaisut tulemat mullistamaan koko moottoripyöräteollisuuden säilyttäen kuitenkin ajon perusajatuksen ja tuntuman, mikä moottoripyöräilyssä onkin tärkeintä. BMW Tomorrow on pyörä edelläkävijöille, jotka eivät pelkää tulevaisuutta.</p>
+		</section>
+
+		<aside>
+			<div id="News">
+				<a href="news.html"><h3>Uutiset</h3></a>
+				<ul id="Buttons">
+					<li><button type="button" onclick="prev()" id="Left"><img src="Button_left.png" alt="Left"></button></li>
+					<li class="hidden" id="Play"><button type="button" onclick="play()"><img src="Button_play.png" alt="Play"></button></li>
+					<li id="Pause"><button type="button" onclick="pause()"><img src="Button_pause.png" alt="Pause"></button></li>
+					<li><button type="button" onclick="next()" id="Right"><img src="Button_right.png" alt="Right"></button></li>
+				</ul>
+			</div>
+
+			<div id="Events">
+				<a href="events.html"><h3>Tulevat tapahtumat</h3></a>
+				<table>
+					<tr>
+						<td><a href="events.html#Event-1"><img src="MP-messut.jpg" title="MP-messut" alt="MP-messut"></a></td>
+						<td><a href="events.html#Event-1"><h6>MP-messut 5.-7.6.2015 Helsingissä</h6></a></td>
+					</tr>
+					<tr>
+						<td><a href="events.html#Event-2"><img src="BMW-logo.png" title="BMW" alt="BMW"></a></td>
+						<td><a href="events.html#Event-2"><h6>BMW-konferenssi 13.6.2015 Berliinissä</h6></a></td>
+					</tr>
+				</table>
+			</div>
+		</aside>
+
+		<footer>
+			<div>
+				&copy;
+				<span class="vcard">
+					<span class="fn">Markus Tyrkkö</span>
+					<span class="org">Aalto SCI</span>
+					<span class="mail">markus.tyrkko@aalto.fi</span>
+					<br>
+					<span class="course">ME-C2300: Verkkojulkaisemisen perusteet 2015</span>
+				</span>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    	<script type="text/javascript" src="guessthenumber.js"></script>
+    	<script type="text/javascript" src="slideshow.js"></script>
+	</body>
+
+    	
+</html>
