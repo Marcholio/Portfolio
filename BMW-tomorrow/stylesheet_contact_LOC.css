@@ -1,0 +1,43 @@
+@import 'normalize.css';
+@import 'stylesheet_index.css';		/*nav-bar and general outfit*/
+@import 'stylesheet_models.css';	/*aside*/
+
+#map-canvas {
+	width: 80%;
+	z-index: 0;
+}
+
+section {
+	width: 70%;
+	float: right;
+	background-color: rgba(6, 30, 51, .6);
+	padding: 10px;
+	color: white;
+	margin: 2em 2em 1em 0.2em;
+	font-family: 'Quantico', 'Lato', sans-serif;
+}
+
+section h3 {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+#contact-info {
+	padding: 2em;
+}
+
+td {
+	width: 40%;
+}
+
+td p {
+	font-size: 1em;
+}
+
+footer {
+	background-color: rgba(45, 46, 51, .8);
+	clear: both;
+	text-align: center;
+	color: white;
+	height: 2.5em;
+}

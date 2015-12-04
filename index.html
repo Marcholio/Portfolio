@@ -12,70 +12,88 @@
 
 	<body>
 		<div class="container-fluid">
+			
+			<!--jumbotron with profile picture and basic information-->
 			<div class="row" id="jumbo">
-				<h1 lang="fi" class="col-md-2 col-md-offset-5">Tervetuloa!</h1>
-				<h1 lang="en" class="col-md-2 col-md-offset-5 hidden">Welcome!</h1>
-				<div class="col-md-1 col-md-offset-4" id="langOpt">
-					<p class="col-md-5 active" onclick="fi()" id="fi">FI</p>
-					<p class="col-md-5 col-md-offset-1" onclick="en()" id="en">EN</p>
+				<h1 lang="fi" class="col-md-4 col-md-offset-4">Tervetuloa!</h1>
+				<h1 lang="en" class="col-md-4 col-md-offset-4 hidden">Welcome!</h1>
+				
+				<!--language options-->
+				<div class="col-md-2 col-md-offset-2" id="langOpt">
+					<p class="col-md-1 col-md-offset-4 active" onclick="fi()" id="fi">FI</p>
+					<p class="col-md-1 col-md-offset-1" onclick="en()" id="en">EN</p>
 				</div>
-				<img src="Profiili.jpg" alt="Markus Tyrkkö" class="col-md-2 col-md-offset-5"/>
-				<p lang="fi" class="col-md-6 col-md-offset-3">Hei, olen 21-vuotias teekkari Espoosta. Opiskelen toista vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href="https://github.com/Marcholio">GitHubin puolella</a>.</p>
-				<p lang="en" class="col-md-6 col-md-offset-3 hidden">Hi, I'm a 21-year-old technology student from Espoo, Finland. I'm studying my second year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href="https://github.com/Marcholio">GitHub</a>.</p>
+				<div id="mobileLang">
+					<h3 lang="fi" onclick="en()" id="en">in English</h3>
+					<h3 lang="en" class="hidden" onclick="fi()" id="fi">Suomeksi</h3>
+				</div>
+				<img src="Profiili.jpg" alt="Markus Tyrkkö" class="col-md-2 col-md-offset-5 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4"/>
+				<p lang="fi" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 ">Hei, olen 21-vuotias teekkari Espoosta. Opiskelen toista vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href="https://github.com/Marcholio">GitHubin puolella</a>.</p>
+				<p lang="en" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 hidden">Hi, I'm a 21-year-old technology student from Espoo, Finland. I'm studying my second year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href="https://github.com/Marcholio">GitHub</a>.</p>
 			</div>
-			<div class="row col-md-12" id="bar">
+			
+			<!--Projects section-->
+			<div class="row" id="bar">
 				<h2 lang="fi">Projektit</h2>
 				<h2 lang="en" class="hidden">Projects</h2>
 			</div>
+			
 			<div class="row">
-				<div class="project1 col-md-6">
-					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2 col-md-offset-2"/>
-					<div lang="fi" class="col-md-8">
-						<h3>Projektin nimi</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+				<div class="project1 col-md-6 col-xs-12">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2 col-xs-1 col-md-offset-1"/>
+					<div lang="fi" class="col-md-8 col-xs-10">
+						<h3>BMW tomorrow</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsum</p>
 					</div>
-					<div lang="en" class="col-md-8 hidden">
-						<h3>Project name</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+					<div lang="en" class="col-md-8 col-xs-10 hidden">
+						<h3>BMW tomorrow</h3>
+						<p>Samma på engelska</p>
 					</div>
 				</div>
-				<div class="project2 col-md-6">
-					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2"/>
-					<div lang="fi" class="col-md-8">
-						<h3>Projektin nimi</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+				
+				<div class="project2 right col-md-6 col-xs-12">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-xs-1 col-md-2"/>
+					<div lang="fi" class="col-md-8 col-xs-10">
+						<h3>The Final Race</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum Projektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumLorem</p>
 					</div>
 					<div lang="en" class="col-md-8 hidden">
-						<h3>Project name</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
+						<h3>The Final Race</h3>
+						<p>Samma på engelska</p>
+					</div>
+				</div>
+			</div>	
+			
+			<!-- second row-->
+			<div class="row" id="row2">
+				<div class="project1 right col-md-6 col-md-push-6 col-xs-12">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-xs-1 col-md-2"/>
+					<div lang="fi" class="col-md-8 col-xs-10">
+						<h3>Shadows</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsum Projektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja</p>
+					</div>
+					<div lang="en" class="col-md-8 col-xs-10 hidden">
+						<h3>Shadows</h3>
+						<p>Samma på engelska</p>
+					</div>
+				</div>
+				
+				<div class="project2 col-md-6 col-md-pull-6 col-xs-12">
+					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-xs-1 col-md-offset-1 col-md-2"/>
+					<div lang="fi" class="col-md-8 col-xs-10">
+						<h3>Joku RSS systeemi</h3>
+						<p>Projektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsumProjektin kuvaus juttuja blaablaa lorem ipsum</p>
+					</div>
+					<div lang="en" class="col-md-8 col-xs-10 hidden">
+						<h3>Some RSS thing</h3>
+						<p>Samma på engelska</p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="project2 col-md-6">
-					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2 col-md-offset-2"/>
-					<div lang="fi" class="col-md-8">
-						<h3>Projektin nimi</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
-					</div>
-					<div lang="en" class="col-md-8 hidden">
-						<h3>Project name</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
-					</div>
-				</div>
-				<div class="project1 col-md-6">
-					<img src="Profiili.jpg" alt="image" title="Projektin nimi" class="col-md-2"/>
-					<div lang="fi" class="col-md-8">
-						<h3>Projektin nimi</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
-					</div>
-					<div lang="en" class="col-md-8 hidden">
-						<h3>Project name</h3>
-						<p>Projektin kuvaus juttuja blaablaa lorem ipsum</p>
-					</div>
-				</div>
-			</div>
-		</div>
+
+		</div>	
+			
+		<!--footer with contact and copyright information-->
 		<footer>
 			<div>
 				&copy;
