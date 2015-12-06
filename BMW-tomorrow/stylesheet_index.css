@@ -186,6 +186,20 @@ aside div ul li p {
 	display: none;
 }
 
+aside h3 {
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.headline {
+	display: block;
+	margin: 0em 1em 1em 1em;
+}
+
+.headline a {
+	color: #fff;
+	text-decoration: none;
+}
 
 #Events table tr td {
 	padding: 0.8em 0 0.8em 0;
