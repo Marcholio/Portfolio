@@ -21,12 +21,14 @@ function eqHeight() {
 	var i = 0,
 		projects = $(".row").children("[class*=project]"),
 		heights = null;
+	//auto set height
 	for (i = 0; i < projects.length; i += 1) {
 		$(projects[i]).height("auto");
 	}
 	heights = projects.map(function (obj) {
 		return $(projects[obj]).height();
 	});
+	//set all heights eqeual to maximum height
 	for (i = 0; i < projects.length; i += 1) {
 		$(projects[i]).height(Math.max.apply(null, heights));
 	}
@@ -34,5 +36,9 @@ function eqHeight() {
 
 $(document).ready(function () {
 	"use strict";
-	setInterval(function () { eqHeight(); }, 10);
+	eqHeight();
 });
+
+$(window).resize(function () {
+	eqHeight();
+})

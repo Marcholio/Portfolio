@@ -81,6 +81,10 @@ p {
 	color: #fff;
 }
 
+.project1 p a, .project2 p a {
+	text-decoration: underline;
+}
+
 .project1 {
 	background-color: #3D8AF7;
 	height: auto;
@@ -91,8 +95,13 @@ p {
 	height: auto;
 }
 
+.project1 a, .project2 a {
+	text-decoration: none;
+}
+
 .right img {
 	margin-left: 2em;
+	margin-bottom: 2em;
 }
 
 .row {
