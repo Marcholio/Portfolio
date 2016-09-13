@@ -15,113 +15,189 @@
 			
 			<!--jumbotron with profile picture and basic information-->
 			<div class="row" id="jumbo">
-				<h1 lang="fi" class="col-md-4 col-md-offset-4">Tervetuloa!</h1>
-				<h1 lang="en" class="col-md-4 col-md-offset-4 hidden">Welcome!</h1>
 				
 				<!--language options-->
-				<div class="col-md-2 col-md-offset-2" id="langOpt">
+				<div class="col-md-2 col-md-offset-10" id="lang-opt">
 					<p class="col-md-1 col-md-offset-4 active" onclick="fi()" id="fi">FI</p>
 					<p class="col-md-1 col-md-offset-1" onclick="en()" id="en">EN</p>
 				</div>
-				<div id="mobileLang">
-					<h3 lang="fi" onclick="en()" id="en">in English</h3>
-					<h3 lang="en" class="hidden" onclick="fi()" id="fi">Suomeksi</h3>
-				</div>
-				<img src="Profiili.jpg" alt="Markus Tyrkkö" class="col-md-2 col-md-offset-5 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4"/>
-				<p lang="fi" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 ">Hei, olen 22-vuotias teekkari Espoosta. Opiskelen toista vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href="https://github.com/Marcholio">GitHubin puolella</a>.</p>
-				<p lang="en" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 hidden">Hi, I'm a 22-year-old technology student from Espoo, Finland. I'm studying my second year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href="https://github.com/Marcholio">GitHub</a>.</p>
-			</div>
-			
-			<!--Projects section-->
-			<div class="row" id="bar">
-				<h2 lang="fi">Projektit</h2>
-				<h2 lang="en" class="hidden">Projects</h2>
-			</div>
-			
-			<div class="row">
-				<div class="project1 col-md-6 col-xs-12">
-					<img src="BMW-tomorrow.png" alt="BMW tomorrow" title="BMW tomorrow" class="col-md-2 col-xs-1 col-md-offset-1"/>
-					<div lang="fi" class="col-md-8 col-xs-10">
-						<a href="/BMW-tomorrow/BMW-tomorrow.html"><h3>BMW tomorrow</h3></a>
-						<p>Osana verkkojulkaisemisen perusteet kurssia tehty verkkosivu kuvitteelliselle automatisoitujen moottoripyörien lanseerauskampanjalle. Työ on toteutettu yhteistyössä <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälän</a> ja <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levosen</a> kanssa.</p>
-					</div>
-					<div lang="en" class="col-md-8 col-xs-10 hidden">
-						<a href="/BMW-tomorrow/BMW-tomorrow.html"><h3>BMW tomorrow</h3></a>
-						<p>A website for imaginary automatic motorcycles launch campaign. The site was made as a part of web development course with <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälä</a> and <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levonen</a>.</p>
-					</div>
-				</div>
 				
-				<div class="project2 right col-md-6 col-xs-12">
-					<img src="The-final-race.png" alt="The Final Race" title="The Final Race" class="col-xs-1 col-md-2"/>
-					<div lang="fi" class="col-md-8 col-xs-10">
-						<a href="The-Final-Race/The-Final-Race.html"><h3>The Final Race</h3></a>
-						<p>Verkkojulkaisemisen perusteet -kurssin lopputyönä toteutettu HTML-canvas + JavaScript -peli. Pelimekaniikka pohjautuu täysin Blizzardin Hearthstoneen. Toteutettu yhteistyössä <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälän</a> ja <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levosen</a> kanssa.</p>
-					</div>
-					<div lang="en" class="col-md-8 hidden">
-						<a href="The-Final-Race/The-Final-Race.html"><h3>The Final Race</h3></a>
-						<p>A HTML-canvas + JavaScript -game developed as a final assignment for web development course. Game mechanics are based on Hearthstone by Blizzard. The game was developed in collaboration with <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälä</a> and <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levonen</a>.</p>
-					</div>
-				</div>
-			</div>	
-			
-			<!-- second row-->
-			<div class="row" id="row2">
-				<div class="project1 right col-md-6 col-md-push-6 col-xs-12">
-					<img src="8-ball.png" alt="Billiards" title="Billiards" class="col-xs-1 col-md-2"/>
-					<div lang="fi" class="col-md-8 col-xs-10">
-						<a href="Billiards/Build.html"><h3>Biljardi</h3></a>
-						<p>3D-biljardia kaksinpelinä. Peli itsessään on toteutettu Unity-pelimoottorilla, sisäinen logiikka C#:lla ja 3D-mallit SketchUpilla. Huom. ei toimi Chromella, suosittelen Firefoxia.</p>
-					</div>
-					<div lang="en" class="col-md-8 col-xs-10 hidden">
-						<a href="Billiards/Build.html"><h3>Billiards</h3></a>
-						<p>3D-billiards for two players. Game is made with Unity game engine, logics with C# and 3D-models with SketchUp. Note: doesn't work with Chrome, I recommend trying Firefox instead.</p>
-					</div>
-				</div>
-				
-				<div class="project2 col-md-6 col-md-pull-6 col-xs-12">
-					<img src="RSS.png" alt="RSS reader" title="RSS reader" class="col-xs-1 col-md-offset-1 col-md-2"/>
-					<div lang="fi" class="col-md-8 col-xs-10">
-						<a href="RSS/RSS.html"><h3>RSS uutislukija</h3></a>
-						<p>Viimeisimmät uutisotsikot monesta eri lähteestä kätevänä syötteenä.</p>
-					</div>
-					<div lang="en" class="col-md-8 col-xs-10 hidden">
-						<a href="RSS/RSS.html"><h3>RSS news reader</h3></a>
-						<p>Latest news from various sources in handy form.</p>
-					</div>
+				<!-- Profile pic and intro text (from script) -->
+				<div class="col-md-8 col-md-offset-3" id="intro">
+					<img src="images/Profiili.jpg" alt="Markus Tyrkkö" class="col-md-3 col-md-offset-1" id="profile-pic"/>
 				</div>
 			</div>
 			
-			<!--third row-->
-			<div class="row">
-				<div class="project1 col-md-6 col-xs-12">
-					<img src="ADIC.jpg" alt="ADIC" title="ADIC" class="col-md-2 col-xs-1 col-md-offset-1"/>
-					<div lang="fi" class="col-md-8 col-xs-10">
-						<a href="https://www.youtube.com/watch?v=Vnuv4_ZktJI"><h3>Accenture Digital Innovations Challenge</h3></a>
-						<p>Jäsen viiden hengen ryhmässä, joka kehitti digitaalisen innovaation Puolustusvoimille. Lopullinen sijoitus kilpailussa oli parhaan kahdeksan joukossa.</p>
-					</div>
-					<div lang="en" class="col-md-8 col-xs-10 hidden">
-						<a href="https://www.youtube.com/watch?v=Vnuv4_ZktJI"><h3>Accenture Digital Innovations Challenge</h3></a>
-						<p>I was member of five-person team that invented a digital innovation for the Finnish Defence Forces. Our final position was among the best eight.</p>
-					</div>
-				</div>
-				
-				<div class="project2 right col-md-6 col-xs-12">
-					<img src="Partio.png" alt="Partio" title="Partio" class="col-xs-1 col-md-2"/>
-					<div lang="fi" class="col-md-8 col-xs-10">
-						<h3>Partio-projektit</h3>
-						<p><a href="http://arkisto.partio.fi/papa/saraste2012/">Saraste 2012</a>: Wodalaakson varapäällikkö. Johdin 100 hengen organisaatiota.</p>
-						<p><a href="http://sites.google.com/site/paisunta16/">Paisunta'16</a>: Kilpailunjohtaja. Johdan kilpailun järjestelytoimikuntaa.</p>
-					</div>
-					<div lang="en" class="col-md-8 hidden">
-						<h3>Scout projects</h3>
-						<p><a href="http://arkisto.partio.fi/papa/saraste2012/">Saraste 2012</a>: Vice leader of water activities. I was an organization of 100 persons.</p>
-						<p><a href="http://sites.google.com/site/paisunta16/">Paisunta'16</a>: Leader of comptetition. I'm in charge of leading the arrangement commission.</p>
-					</div>
-				</div>
-			</div>
+			<!-- Projects showreel -->
+			<div id="projects" class="carousel slide row" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#projects" data-slide-to="0" class="active"></li>
+					<li data-target="#projects" data-slide-to="1"></li>
+					<li data-target="#projects" data-slide-to="2"></li>
+					<li data-target="#projects" data-slide-to="3"></li>
+					<li data-target="#projects" data-slide-to="4"></li>
+					<li data-target="#projects" data-slide-to="5"></li>
+				</ol>
 
-		</div>	
-			
+			  	<!-- Wrapper for slides -->
+			  	<div class="carousel-inner" role="listbox">
+					
+					<!-- BMW Tomorrow -->
+				  	<div class="item active">
+				  		<img src="images/BMW-tomorrow.png" alt="BMW Tomorrow">
+				  		<div class="carousel-caption">
+							<a href="/BMW-tomorrow/BMW-tomorrow.html"><h3>BMW tomorrow</h3></a>
+							<p lang="fi">Osana verkkojulkaisemisen perusteet -kurssia tehty verkkosivu kuvitteelliselle automatisoitujen moottoripyörien lanseerauskampanjalle. Työ on toteutettu yhteistyössä <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälän</a> ja <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levosen</a> kanssa.</p>
+							<p lang="en" class="hidden">A website for imaginary automatic motorcycles launch campaign. The site was made as a part of web development course with <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälä</a> and <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levonen</a>.</p>
+				  		</div>
+					</div>
+					
+					<!-- The Final Race -->
+					<div class="item">
+				  		<img src="images/The-final-race.png" alt="The Final Race">
+				  		<div class="carousel-caption">
+							<a href="The-Final-Race/The-Final-Race.html"><h3>The Final Race</h3></a>
+							<p lang="fi">Verkkojulkaisemisen perusteet -kurssin lopputyönä toteutettu HTML-canvas + JavaScript -peli. Pelimekaniikka pohjautuu täysin Blizzardin Hearthstoneen. Toteutettu yhteistyössä <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälän</a> ja <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levosen</a> kanssa.</p>
+							<p lang="en" class="hidden">A HTML-canvas + JavaScript -game developed as a final assignment for web development course. Game mechanics are based on Hearthstone by Blizzard. The game was developed in collaboration with <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälä</a> and <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levonen</a>.</p>
+				  		</div>
+					</div>
+					
+					<!-- Billiards -->
+					<div class="item">
+				  		<img src="images/Billiards.png" alt="Billiards">
+				  		<div class="carousel-caption">
+							<a href="Billiards/Build.html"><h3 lang="fi">Biljardi</h3></a>
+							<p lang="fi">3D-biljardia kaksinpelinä. Peli itsessään on toteutettu Unity-pelimoottorilla, sisäinen logiikka C#:lla ja 3D-mallit SketchUpilla. Huom. ei toimi Chromella, suosittelen Firefoxia.</p>
+							<a href="Billiards/Build.html"><h3 lang="en" class="hidden">Billiards</h3></a>
+							<p lang="en" class="hidden">3D-billiards for two players. Game is made with Unity game engine, logics with C# and 3D-models with SketchUp. Note: doesn't work with Chrome, I recommend trying Firefox instead.</p>
+				  		</div>
+					</div>
+					
+					<!-- FridgePi -->
+					<div class="item">
+				  		<img src="images/FridgePi.png" alt="FridgePi">
+				  		<div class="carousel-caption">
+							<a href="https://github.com/Marcholio/FridgeBrain"><h3 lang="fi">FridgePi - jääkaappikamera</h3></a>
+							<p lang="fi">Raspberry Pi:llä toteutettu jääkaappikamera kuvantunnistusominaisuudella. Lisäksi kauppalistan tarkistaminen onnistuu kätevästi Telegram-botin avulla.</p>
+							<a href="https://github.com/Marcholio/FridgeBrain"><h3 lang="en" class="hidden">FridgePi - fridge camera</h3></a>
+							<p lang="en" class="hidden">Fridge camera with image recognition made with Raspberry Pi. In Addition there's also a Telegram bot to check groceries list.</p>
+				  		</div>
+					</div>
+					
+					<!-- ADIC -->
+					<div class="item">
+				  		<img src="images/ADIC.png" alt="ADIC">
+				  		<div class="carousel-caption">
+							<a href="https://www.youtube.com/watch?v=Vnuv4_ZktJI"><h3>Accenture Digital Innovation Challenge 2015</h3></a>
+							<p lang="fi">Jäsen viiden hengen ryhmässä, joka kehitti digitaalisen innovaation Puolustusvoimille. Lopullinen sijoitus kilpailussa oli parhaan kahdeksan joukossa.</p>
+							<p lang="en" class="hidden">I was member of five-person team that invented a digital innovation for the Finnish Defence Forces. Our final position was among the best eight.</p>
+				  		</div>
+					</div>
+					
+					<!-- Scouting -->
+					<div class="item">
+				  		<img src="images/partio.png" alt="Scouting">
+				  		<div class="carousel-caption">
+							<h3 lang="fi">Partio-projektit</h3>
+							<p lang="fi"><a href="http://arkisto.partio.fi/papa/saraste2012/">Saraste 2012</a>: Wodalaakson varapäällikkö. Olin toinen päävastuullinen 3000 hengen vesiohjelman järjestämisessä.</p>
+							<p lang="fi"><a href="http://sites.google.com/site/paisunta16/">Paisunta'16</a>: Kilpailunjohtaja. Johdin kilpailun järjestelytoimikuntaa.</p>
+							<h3 lang="en" class="hidden">Scout projects</h3>
+							<p lang="en" class="hidden"><a href="http://arkisto.partio.fi/papa/saraste2012/">Saraste 2012</a>: Vice leader of water activities. In charge of organizing water activities for 3000 people.</p>
+							<p lang="en" class="hidden"><a href="http://sites.google.com/site/paisunta16/">Paisunta'16</a>: Leader of competition. I was in charge of leading the arrangement commission.</p>
+				  		</div>
+					</div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  </a>
+			  <a class="right carousel-control" href="#projects" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  </a>
+			</div>
+		
+		
+			<!-- Technologies -->
+			<div class="row" id="technologies">
+				<div class="col-md-1">
+					<img src="images/HTML.png" alt="HTML5" title="HTML5">
+				</div>
+				<div class="col-md-1">
+					<img src="images/CSS.png" alt="CSS3" title="CSS3" class>
+				</div>
+				<div class="col-md-1">
+					<img src="images/javascript.png" alt="JavaScript" title="JavaScript">
+				</div>
+				<div class="col-md-1">
+					<img src="images/jquery.png" alt="JQuery" title="JQuery">
+				</div>
+				<div class="col-md-1">
+					<img src="images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
+				</div>
+				<div class="col-md-1">
+					<img src="images/python.png" alt="Python" title="Python">
+				</div>
+				<div class="col-md-1">
+					<img src="images/scala.png" alt="Scala" title="Scala">
+				</div>
+				<div class="col-md-1">
+					<img src="images/java.png" alt="Java" title="Java">
+				</div>
+				<div class="col-md-1">
+					<img src="images/c-sharp.png" alt="C#" title="C#">
+				</div>
+				<div class="col-md-1">
+					<img src="images/raspberry.png" alt="Raspberry Pi" title="Raspberry Pi">
+				</div>
+				<div class="col-md-1">
+					<img src="images/unity.png" alt="Unity 3D" title="Unity 3D">
+				</div>
+				<div class="col-md-1">
+					<img src="images/sketchup.png" alt="SketchUp" title="SketchUp">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1 tech-text">
+					<h4>HTML 5</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>CSS 3</h4>
+				</div>
+				<div class="col-md-1 tech-text" id="js-text">
+					<h4>JavaScript</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>JQuery</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>Bootstrap</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>Python</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>Scala</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>Java</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>C#</h4>
+				</div>
+				<div class="col-md-1 tech-text" id="raspberry-text">
+					<h4>Raspberry Pi</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>Unity 3D</h4>
+				</div>
+				<div class="col-md-1 tech-text">
+					<h4>SketchUp</h4>
+				</div>
+			</div>
+		
+		</div>
 		<!--footer with contact and copyright information-->
 		<footer>
 			<div>
@@ -133,7 +209,10 @@
 			</div>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="effects.js"></script>
+		
+		<!-- Google Analytics -->
 		<script>
   			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
