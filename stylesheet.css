@@ -21,6 +21,10 @@ body {
 	margin: 0 0 -1.5em 0;
 }
 
+.clearfix {
+	display: none;
+}
+
 footer {
 	background: rgba(0,0,0,0.8);
 	color: #E4F2F7;
@@ -51,6 +55,10 @@ h4 {
 
 #jumbo {
 	margin-bottom: 2em;
+}
+
+#lang-btn {
+	display: none;
 }
 
 #lang-opt {
@@ -84,4 +92,34 @@ p {
 
 .tech-text {
 	text-align: center;
+}
+
+@media (max-width: 992px) {
+	.carousel-caption {
+		margin-bottom: -3em;
+	}
+
+	.clearfix {
+		display: block;
+	}
+
+	#lang-btn {
+		display: block;
+		font-family: monospace;
+		font-size: 2em;
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	#lang-opt {
+		display: none;
+	}
+
+	.tech-text {
+		display: none;
+	}
+
+	#technologies {
+		overflow: hidden;
+	}
 }

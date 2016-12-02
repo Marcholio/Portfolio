@@ -12,22 +12,25 @@
 
 	<body>
 		<div class="container-fluid">
-			
+
 			<!--jumbotron with profile picture and basic information-->
 			<div class="row" id="jumbo">
-				
+
 				<!--language options-->
 				<div class="col-md-2 col-md-offset-10" id="lang-opt">
 					<p class="col-md-1 col-md-offset-4 active" onclick="fi()" id="fi">FI</p>
 					<p class="col-md-1 col-md-offset-1" onclick="en()" id="en">EN</p>
 				</div>
-				
+				<div id="lang-btn">
+					<p class="hidden" onclick="fi()" lang="en">Suomeksi</p>
+					<p onclick="en()" lang="fi">in English</p>
+				</div>
 				<!-- Profile pic and intro text (from script) -->
 				<div class="col-md-8 col-md-offset-3" id="intro">
-					<img src="images/Profiili.jpg" alt="Markus Tyrkkö" class="col-md-3 col-md-offset-1" id="profile-pic"/>
+					<img src="images/Profiili.jpg" alt="Markus Tyrkkö" class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-1" id="profile-pic"/>
 				</div>
 			</div>
-			
+
 			<!-- Projects showreel -->
 			<div id="projects" class="carousel slide row" data-ride="carousel">
 				<!-- Indicators -->
@@ -42,7 +45,7 @@
 
 			  	<!-- Wrapper for slides -->
 			  	<div class="carousel-inner" role="listbox">
-					
+
 					<!-- BMW Tomorrow -->
 				  	<div class="item active">
 				  		<img src="images/BMW-tomorrow.png" alt="BMW Tomorrow">
@@ -52,7 +55,7 @@
 							<p lang="en" class="hidden">A website for imaginary automatic motorcycles launch campaign. The site was made as a part of web development course with <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälä</a> and <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levonen</a>.</p>
 				  		</div>
 					</div>
-					
+
 					<!-- The Final Race -->
 					<div class="item">
 				  		<img src="images/The-final-race.png" alt="The Final Race">
@@ -62,7 +65,7 @@
 							<p lang="en" class="hidden">A HTML-canvas + JavaScript -game developed as a final assignment for web development course. Game mechanics are based on Hearthstone by Blizzard. The game was developed in collaboration with <a href="https://www.linkedin.com/profile/view?id=AAkAABl4vPgByIFSXjxw2_M4hXOeWkVUZsouMbI&authType=NAME_SEARCH&authToken=2534&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A427343096%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449404860253%2Ctas%3Akasper%20kylm">Kasper Kylmälä</a> and <a href="https://www.linkedin.com/in/sofialevonen?authType=NAME_SEARCH&authToken=jVoM&locale=en_US&srchid=3901447601453500827138&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3901447601453500827138%2CVSRPtargetId%3A475113875%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH">Sofia Levonen</a>.</p>
 				  		</div>
 					</div>
-					
+
 					<!-- Billiards -->
 					<div class="item">
 				  		<img src="images/Billiards.png" alt="Billiards">
@@ -73,7 +76,7 @@
 							<p lang="en" class="hidden">3D-billiards for two players. Game is made with Unity game engine, logics with C# and 3D-models with SketchUp. Note: doesn't work with Chrome, I recommend trying Firefox instead.</p>
 				  		</div>
 					</div>
-					
+
 					<!-- FridgePi -->
 					<div class="item">
 				  		<img src="images/FridgePi.png" alt="FridgePi">
@@ -84,17 +87,17 @@
 							<p lang="en" class="hidden">Fridge camera with image recognition made with Raspberry Pi. In Addition there's also a Telegram bot to check groceries list.</p>
 				  		</div>
 					</div>
-					
-					<!-- ADIC -->
+
+					<!-- Junction -->
 					<div class="item">
-				  		<img src="images/ADIC.png" alt="ADIC">
+				  		<img src="images/Junction.png" alt="Junction">
 				  		<div class="carousel-caption">
-							<a href="https://www.youtube.com/watch?v=Vnuv4_ZktJI"><h3>Accenture Digital Innovation Challenge 2015</h3></a>
-							<p lang="fi">Jäsen viiden hengen ryhmässä, joka kehitti digitaalisen innovaation Puolustusvoimille. Lopullinen sijoitus kilpailussa oli parhaan kahdeksan joukossa.</p>
-							<p lang="en" class="hidden">I was member of five-person team that invented a digital innovation for the Finnish Defence Forces. Our final position was among the best eight.</p>
+							<a href="https://github.com/villevuor/turboclean"><h3>Junction 2016 - Turboclean</h3></a>
+							<p lang="fi">Osana viiden hengen ryhmää, joka kehitti viikonlopun aikana ratkaisun siivouksen optimointiin sensoridataa hyödyntämällä. Toteutettu Nodella ja Reactilla.</p>
+							<p lang="en" class="hidden">Together with group of five, we implemented a solution for optimizing building maintenance using sensor data. Project was implemented with Node and React.</p>
 				  		</div>
 					</div>
-					
+
 					<!-- Scouting -->
 					<div class="item">
 				  		<img src="images/partio.png" alt="Scouting">
@@ -117,86 +120,87 @@
 				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			  </a>
 			</div>
-		
-		
+
+
 			<!-- Technologies -->
 			<div class="row" id="technologies">
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/HTML.png" alt="HTML5" title="HTML5">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/CSS.png" alt="CSS3" title="CSS3" class>
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/javascript.png" alt="JavaScript" title="JavaScript">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/jquery.png" alt="JQuery" title="JQuery">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/python.png" alt="Python" title="Python">
 				</div>
-				<div class="col-md-1">
+				<div class="clearfix xs-visible"></div>
+				<div class="col-xs-2 col-md-1">
 					<img src="images/scala.png" alt="Scala" title="Scala">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/java.png" alt="Java" title="Java">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/c-sharp.png" alt="C#" title="C#">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/raspberry.png" alt="Raspberry Pi" title="Raspberry Pi">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/unity.png" alt="Unity 3D" title="Unity 3D">
 				</div>
-				<div class="col-md-1">
+				<div class="col-xs-2 col-md-1">
 					<img src="images/sketchup.png" alt="SketchUp" title="SketchUp">
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>HTML 5</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>CSS 3</h4>
 				</div>
-				<div class="col-md-1 tech-text" id="js-text">
+				<div class="col-xs-2 col-md-1 tech-text" id="js-text">
 					<h4>JavaScript</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>JQuery</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>Bootstrap</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>Python</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>Scala</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>Java</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>C#</h4>
 				</div>
-				<div class="col-md-1 tech-text" id="raspberry-text">
+				<div class="col-xs-2 col-md-1 tech-text" id="raspberry-text">
 					<h4>Raspberry Pi</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>Unity 3D</h4>
 				</div>
-				<div class="col-md-1 tech-text">
+				<div class="col-xs-2 col-md-1 tech-text">
 					<h4>SketchUp</h4>
 				</div>
 			</div>
-		
+
 		</div>
 		<!--footer with contact and copyright information-->
 		<footer>
@@ -211,7 +215,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="effects.js"></script>
-		
+
 		<!-- Google Analytics -->
 		<script>
   			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

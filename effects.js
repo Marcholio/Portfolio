@@ -34,9 +34,9 @@ function welcomeText() {
 		studyYear += 1;
 	}
 	
-	$("#intro").prepend("<p lang='fi' class='col-md-6 intro-text'>Hei, olen " + age + "-vuotias teekkari Espoosta. Opiskelen kolmatta vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href='https://github.com/Marcholio'>GitHubin puolella</a>.</p>");
+	$("#intro").prepend("<p lang='fi' class='col-xs-10 col-xs-offset-1 col-md-6 intro-text'>Hei, olen " + age + "-vuotias teekkari Espoosta. Opiskelen kolmatta vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href='https://github.com/Marcholio'>GitHubin puolella</a>.</p>");
 	
-	$("#intro").prepend("<p lang='en' class='col-md-6 intro-text hidden'>Hi, I'm a " + age + "-year-old technology student from Espoo, Finland. I'm studying my third year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href='https://github.com/Marcholio'>GitHub</a>.</p>");
+	$("#intro").prepend("<p lang='en' class='col-xs-10 col-xs-offset-1 col-md-6 intro-text hidden'>Hi, I'm a " + age + "-year-old technology student from Espoo, Finland. I'm studying my third year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href='https://github.com/Marcholio'>GitHub</a>.</p>");
 }
 
 $(document).ready(welcomeText());
