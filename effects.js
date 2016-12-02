@@ -16,29 +16,27 @@ function fi() {
 	$('#fi').addClass("active");
 }
 
-function eqHeight() {
-	"use strict";
-	var i = 0,
-		projects = $(".row").children("[class*=project]"),
-		heights = null;
-	//auto set height
-	for (i = 0; i < projects.length; i += 1) {
-		$(projects[i]).height("auto");
+function welcomeText() {
+	'use strict';
+
+	var today = new Date(),
+		year = today.getFullYear(),
+		month = today.getMonth(),
+		day = today.getDate(),
+		age = year - 1994,
+		studyYear = year - 2014;
+
+	if (month < 3 || (3 === month && day < 18)) {
+		age -= 1;
 	}
-	heights = projects.map(function (obj) {
-		return $(projects[obj]).height();
-	});
-	//set all heights eqeual to maximum height
-	for (i = 0; i < projects.length; i += 1) {
-		$(projects[i]).height(Math.max.apply(null, heights));
+	
+	if (month > 7) {
+		studyYear += 1;
 	}
+	
+	$("#intro").prepend("<p lang='fi' class='col-xs-10 col-xs-offset-1 col-md-6 intro-text'>Hei, olen " + age + "-vuotias teekkari Espoosta. Opiskelen kolmatta vuotta informaatioverkostoja Aallossa. Olen koonnut tälle sivulle muutamia koulu- ja vapaa-ajan projektejani. Lähdekoodiin voi käydä tutustumassa <a href='https://github.com/Marcholio'>GitHubin puolella</a>.</p>");
+	
+	$("#intro").prepend("<p lang='en' class='col-xs-10 col-xs-offset-1 col-md-6 intro-text hidden'>Hi, I'm a " + age + "-year-old technology student from Espoo, Finland. I'm studying my third year in Aalto University with Information Networks major. I've gathered some of my school and free-time projects to this site. Source code is available in <a href='https://github.com/Marcholio'>GitHub</a>.</p>");
 }
 
-$(document).ready(function () {
-	"use strict";
-	eqHeight();
-});
-
-$(window).resize(function () {
-	eqHeight();
-})
+$(document).ready(welcomeText());
