@@ -1,11 +1,6 @@
 {
-  "extends": [
-    "prettier",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:import/errors"
-  ],
-  "parser": "babel-eslint",
+  "extends": ["react-app"],
+  "plugins": ["prettier"],
   "globals": {
     "Promise": false,
     "console": false,
