@@ -21,7 +21,8 @@
       .App .project .five img {
         margin-top: 2rem;
         border-radius: 8px;
-        max-height: 21rem; }
+        max-height: 21rem;
+        max-width: 100%; }
     .App .project .seven {
       padding: 0 1rem; }
     .App .project .tag-wrapper {

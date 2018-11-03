@@ -7,6 +7,8 @@ import Project from "./Project";
 import "./styles/App.css";
 
 import duunitin from "./content/duunitin.json";
+import kasvunmahdollistajat from "./content/kasvunmahdollistajat.json";
+import portfolio from "./content/portfolio.json";
 import test from "./content/test.json";
 
 class App extends Component {
@@ -18,9 +20,9 @@ class App extends Component {
           <hr />
           <Project content={duunitin} />
           <hr />
-          <Project content={test} inverse />
+          <Project content={kasvunmahdollistajat} inverse />
           <hr />
-          <Project content={test} />
+          <Project content={portfolio} />
           <hr />
           <Project content={test} inverse />
         </div>
