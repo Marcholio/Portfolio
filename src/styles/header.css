@@ -1,0 +1,6 @@
+.header {
+  padding-top: 20%;
+  padding-bottom: 20%; }
+  .header #profile-pic {
+    border-radius: 50%;
+    max-width: 50%; }
