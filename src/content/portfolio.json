@@ -1,7 +1,7 @@
 {
   "title": "markustyrkko.com",
-  "description": "This portfolio site. Originally built 2015 with pure html and css, recreated several times and currently built with React and Skeleton CSS framework. Hosted on heroku.",
+  "description": "This portfolio site. Originally built in 2015 with pure html and css, recreated several times and currently built with React and Skeleton CSS framework. Hosted on heroku.",
   "tags": ["React", "SCSS", "Skeleton", "Heroku"],
-  "image": "placeholder.png",
+  "image": "portfolio.png",
   "url": "https://github.com/Marcholio/Portfolio"
 }
