@@ -18,7 +18,7 @@ export default () => (
       />
       <div className="link-wrapper">
         <div>
-          <a href="/cv.pdf" className="button">
+          <a href="/CV.pdf" className="button" download>
             {content.downloadCv}
           </a>
         </div>
