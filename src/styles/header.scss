@@ -2,6 +2,10 @@
   padding-top: 25vh;
   padding-bottom: 25vh;
 
+  & > * {
+    height: 50vh;
+  }
+
   #profile-pic {
     border-radius: 50%;
     max-width: 50%;

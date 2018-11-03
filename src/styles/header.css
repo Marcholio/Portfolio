@@ -1,6 +1,8 @@
 .header {
   padding-top: 25vh;
   padding-bottom: 25vh; }
+  .header > * {
+    height: 50vh; }
   .header #profile-pic {
     border-radius: 50%;
     max-width: 50%; }

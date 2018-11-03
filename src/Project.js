@@ -9,7 +9,9 @@ const text = props => (
     <div>{props.content.description}</div>
     <div className="tag-wrapper">
       {props.content.tags.map(t => (
-        <div className="tag">{t}</div>
+        <div className="tag" key={t}>
+          {t}
+        </div>
       ))}
     </div>
   </div>
@@ -17,7 +19,7 @@ const text = props => (
 
 const img = props => (
   <div className="five columns">
-    <img src={`/images/${props.content.image}`} />
+    <img src={`/images/${props.content.image}`} alt={props.content.title} />
   </div>
 );
 

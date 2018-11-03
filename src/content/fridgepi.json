@@ -1,0 +1,7 @@
+{
+  "title": "FridgePi",
+  "description": "A fridge camera that automatically takes photo when fridge is opened. The server then analyzes the photo and a shopping list of missing products can be retrieved with Telegram bot. Experimental project with Raspberry Pi and I got it working quite well, however it was not reliable enough to be actually useful.",
+  "tags": ["Python", "Scala", "Raspberry Pi", "Machine learning"],
+  "image": "fridgePi.png",
+  "url": "https://github.com/Marcholio/FridgeBrain"
+}

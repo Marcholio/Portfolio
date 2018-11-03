@@ -9,7 +9,8 @@ import "./styles/App.css";
 import duunitin from "./content/duunitin.json";
 import kasvunmahdollistajat from "./content/kasvunmahdollistajat.json";
 import portfolio from "./content/portfolio.json";
-import test from "./content/test.json";
+import turboclean from "./content/turboclean.json";
+import fridgepi from "./content/fridgepi.json";
 
 class App extends Component {
   render() {
@@ -18,13 +19,16 @@ class App extends Component {
         <div className="container">
           <Header />
           <hr />
+          <div id="projects" />
           <Project content={duunitin} />
           <hr />
           <Project content={kasvunmahdollistajat} inverse />
           <hr />
           <Project content={portfolio} />
           <hr />
-          <Project content={test} inverse />
+          <Project content={turboclean} inverse />
+          <hr />
+          <Project content={fridgepi} />
         </div>
         <CookieConsent
           location="bottom"

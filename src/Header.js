@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import content from "./content/header.json";
 import "./styles/header.css";
 
@@ -7,7 +8,7 @@ export default () => (
     <div className="six columns">
       <h1>{content.welcome}</h1>
       {content.intro}
-      {content.engagement}
+      <AnchorLink href="#projects">{content.engagement}</AnchorLink>
     </div>
     <div className="six columns">
       <img
