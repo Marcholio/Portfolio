@@ -1,0 +1,7 @@
+{
+  "title": "Turboclean",
+  "description": "Our entry to Junction 2016, Turboclean is an application to optimize cleaning and maintenance operations based on IoT data. An algorithm calculates optimal order for cleaning tasks to be performed and lists them in a user friendly mobile site.",
+  "tags": ["NodeJS", "React", "IoT", "Heroku"],
+  "image": "turboclean.png",
+  "url": "https://devpost.com/software/turboclean"
+}

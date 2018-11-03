@@ -1,0 +1,36 @@
+.App {
+  background-image: url("/images/background.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  color: white; }
+  .App .link-wrapper > * {
+    display: inline-block;
+    margin: 1rem; }
+  .App .project {
+    height: 25rem; }
+    .App .project a {
+      color: white;
+      text-decoration: none; }
+      .App .project a:hover {
+        text-decoration: underline;
+        cursor: pointer; }
+    .App .project .five {
+      height: 100%; }
+      .App .project .five img {
+        margin-top: 2rem;
+        border-radius: 8px;
+        max-height: 21rem;
+        max-width: 100%; }
+    .App .project .seven {
+      padding: 0 1rem; }
+    .App .project .tag-wrapper {
+      margin: 2rem 0; }
+    .App .project .tag {
+      display: inline-block;
+      border: 1px solid white;
+      border-radius: 4px;
+      font-weight: bold;
+      padding: 0.25rem 1rem;
+      margin: 0.5rem; }
