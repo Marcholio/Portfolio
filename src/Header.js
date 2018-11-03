@@ -7,7 +7,7 @@ export default () => (
   <div className="row header">
     <div className="six columns">
       <h1>{content.welcome}</h1>
-      {content.intro}
+      <p>{content.intro}</p>
       <AnchorLink href="#projects">{content.engagement}</AnchorLink>
     </div>
     <div className="six columns">
@@ -29,7 +29,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            <img src="/images/linkedin.png" alt="linkedin" title="LinkedIn" />
           </a>
         </div>
         <div>
@@ -38,7 +38,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            <img src="/images/github.png" alt="github" title="GitHub" />
           </a>
         </div>
       </div>

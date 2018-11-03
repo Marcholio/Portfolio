@@ -6,3 +6,15 @@
   .header #profile-pic {
     border-radius: 50%;
     max-width: 50%; }
+  .header .link-wrapper {
+    margin: 2rem; }
+    .header .link-wrapper > * {
+      display: inline-block;
+      margin: 2rem; }
+      .header .link-wrapper > * a {
+        color: white; }
+      .header .link-wrapper > * a:hover {
+        color: grey; }
+      .header .link-wrapper > * a img {
+        width: 3rem;
+        vertical-align: middle; }

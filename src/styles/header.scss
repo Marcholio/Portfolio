@@ -10,4 +10,26 @@
     border-radius: 50%;
     max-width: 50%;
   }
+
+  .link-wrapper {
+    margin: 2rem;
+
+    & > * {
+      display: inline-block;
+      margin: 2rem;
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+        color: grey;
+      }
+
+      a img {
+        width: 3rem;
+        vertical-align: middle;
+      }
+    }
+  }
 }
