@@ -6,6 +6,7 @@ import Header from "./Header";
 import Project from "./Project";
 import "./styles/App.css";
 
+import duunitin from "./content/duunitin.json";
 import test from "./content/test.json";
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
         <div className="container">
           <Header />
           <hr />
-          <Project content={test} />
+          <Project content={duunitin} />
           <hr />
           <Project content={test} inverse />
           <hr />

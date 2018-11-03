@@ -1,10 +1,11 @@
 import React from "react";
-import content from "./content/header.json";
 import "./styles/header.css";
 
 const text = props => (
   <div className="seven columns">
-    <h4>{props.content.title}</h4>
+    <a href={props.content.url} target="_blank" rel="noopener noreferrer">
+      <h4>{props.content.title}</h4>
+    </a>
     <div>{props.content.description}</div>
     <div className="tag-wrapper">
       {props.content.tags.map(t => (

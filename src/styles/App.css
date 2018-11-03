@@ -10,10 +10,20 @@
     margin: 1rem; }
   .App .project {
     height: 25rem; }
+    .App .project a {
+      color: white;
+      text-decoration: none; }
+      .App .project a:hover {
+        text-decoration: underline;
+        cursor: pointer; }
     .App .project .five {
       height: 100%; }
       .App .project .five img {
-        margin-top: 3rem; }
+        margin-top: 2rem;
+        border-radius: 8px;
+        max-height: 21rem; }
+    .App .project .seven {
+      padding: 0 1rem; }
     .App .project .tag-wrapper {
       margin: 2rem 0; }
     .App .project .tag {
@@ -21,5 +31,5 @@
       border: 1px solid white;
       border-radius: 4px;
       font-weight: bold;
-      padding: 2px 8px;
-      margin-right: 8px; }
+      padding: 0.25rem 1rem;
+      margin: 0.5rem; }

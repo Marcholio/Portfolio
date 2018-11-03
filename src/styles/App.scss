@@ -14,12 +14,28 @@
   .project {
     height: 25rem;
 
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
     .five {
       height: 100%;
 
       img {
-        margin-top: 3rem;
+        margin-top: 2rem;
+        border-radius: 8px;
+        max-height: 21rem;
       }
+    }
+
+    .seven {
+      padding: 0 1rem;
     }
 
     .tag-wrapper {
@@ -31,8 +47,8 @@
       border: 1px solid white;
       border-radius: 4px;
       font-weight: bold;
-      padding: 2px 8px;
-      margin-right: 8px;
+      padding: 0.25rem 1rem;
+      margin: 0.5rem;
     }
   }
 }
