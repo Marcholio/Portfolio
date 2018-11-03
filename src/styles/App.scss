@@ -10,4 +10,29 @@
     display: inline-block;
     margin: 1rem;
   }
+
+  .project {
+    height: 25rem;
+
+    .five {
+      height: 100%;
+
+      img {
+        margin-top: 3rem;
+      }
+    }
+
+    .tag-wrapper {
+      margin: 2rem 0;
+    }
+
+    .tag {
+      display: inline-block;
+      border: 1px solid white;
+      border-radius: 4px;
+      font-weight: bold;
+      padding: 2px 8px;
+      margin-right: 8px;
+    }
+  }
 }

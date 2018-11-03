@@ -8,3 +8,18 @@
   .App .link-wrapper > * {
     display: inline-block;
     margin: 1rem; }
+  .App .project {
+    height: 25rem; }
+    .App .project .five {
+      height: 100%; }
+      .App .project .five img {
+        margin-top: 3rem; }
+    .App .project .tag-wrapper {
+      margin: 2rem 0; }
+    .App .project .tag {
+      display: inline-block;
+      border: 1px solid white;
+      border-radius: 4px;
+      font-weight: bold;
+      padding: 2px 8px;
+      margin-right: 8px; }
