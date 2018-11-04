@@ -18,3 +18,21 @@
       .header .link-wrapper > * a img {
         width: 3rem;
         vertical-align: middle; }
+
+@media (max-width: 550px) {
+  .mobile-hidden {
+    display: none; }
+  .header {
+    padding: 2rem 0 0 0; }
+    .header .link-wrapper > * {
+      margin: 1rem; } }
+
+@media (max-width: 400px) {
+  .header > * {
+    height: unset; }
+  .header #profile-pic {
+    margin-top: 2rem; }
+  .header .link-wrapper {
+    margin: 1rem; }
+  .header .link-wrapper a {
+    padding: 0 0.3rem; } }
