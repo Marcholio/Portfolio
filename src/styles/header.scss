@@ -33,3 +33,37 @@
     }
   }
 }
+
+@media (max-width: 550px) {
+  .mobile-hidden {
+    display: none;
+  }
+
+  .header {
+    padding: 2rem 0 0 0;
+
+    .link-wrapper > * {
+      margin: 1rem;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    & > * {
+      height: unset;
+    }
+
+    #profile-pic {
+      margin-top: 2rem;
+    }
+
+    .link-wrapper {
+      margin: 1rem;
+    }
+
+    .link-wrapper a {
+      padding: 0 0.3rem;
+    }
+  }
+}

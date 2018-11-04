@@ -6,8 +6,13 @@
   width: 100%;
   color: white;
 
+  .inverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .project {
-    height: 25rem;
+    max-height: 30rem;
 
     a {
       color: white;
@@ -20,7 +25,7 @@
     }
 
     .five {
-      height: 100%;
+      max-height: 30rem;
 
       img {
         margin-top: 2rem;
@@ -45,6 +50,41 @@
       font-weight: bold;
       padding: 0.25rem 1rem;
       margin: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .App .project {
+    max-height: unset;
+    height: unset;
+
+    .five img {
+      margin-top: 6rem;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .App {
+    background-size: 100% 100vh;
+
+    .inverse {
+      display: block;
+    }
+
+    .project {
+      .five {
+        min-height: 26rem;
+
+        img {
+          margin-top: 3rem;
+        }
+      }
+
+      .seven {
+        min-height: 30rem;
+      }
     }
   }
 }
