@@ -67,6 +67,8 @@
 
 @media (max-width: 550px) {
   .App {
+    background-size: 100% 100vh;
+
     .inverse {
       display: block;
     }

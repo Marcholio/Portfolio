@@ -43,11 +43,13 @@
       margin-top: 6rem; } }
 
 @media (max-width: 550px) {
-  .App .inverse {
-    display: block; }
-  .App .project .five {
-    min-height: 26rem; }
-    .App .project .five img {
-      margin-top: 3rem; }
-  .App .project .seven {
-    min-height: 30rem; } }
+  .App {
+    background-size: 100% 100vh; }
+    .App .inverse {
+      display: block; }
+    .App .project .five {
+      min-height: 26rem; }
+      .App .project .five img {
+        margin-top: 3rem; }
+    .App .project .seven {
+      min-height: 30rem; } }
