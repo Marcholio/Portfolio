@@ -11,6 +11,7 @@ import kasvunmahdollistajat from "./content/kasvunmahdollistajat.json";
 import portfolio from "./content/portfolio.json";
 import turboclean from "./content/turboclean.json";
 import fridgepi from "./content/fridgepi.json";
+import bikevisu from "./content/bike-visu.json";
 
 class App extends Component {
   render() {
@@ -29,6 +30,8 @@ class App extends Component {
           <Project content={turboclean} inverse />
           <hr />
           <Project content={fridgepi} />
+          <hr />
+          <Project content={bikevisu} />
         </div>
         <CookieConsent
           location="bottom"

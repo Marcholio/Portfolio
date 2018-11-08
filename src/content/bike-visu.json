@@ -1,0 +1,7 @@
+{
+  "title": "Bike sharing in Montreal",
+  "description": "A visualization about shared bike rides in Montreal during the summer season of 2018. This was the final project of explorative information visualization course and it's implemented with create-react-app and Google Maps.",
+  "tags": ["React", "Big data", "Visualization"],
+  "image": "bike-visu.png",
+  "url": "https://marcholio.github.io/bike-sharing-visualization"
+}

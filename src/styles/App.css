@@ -5,7 +5,8 @@
   text-align: center;
   min-height: 100vh;
   width: 100%;
-  color: white; }
+  color: white;
+  padding-bottom: 2rem; }
   .App .inverse {
     display: flex;
     flex-direction: row-reverse; }
