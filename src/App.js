@@ -31,7 +31,7 @@ class App extends Component {
           <hr />
           <Project content={fridgepi} />
           <hr />
-          <Project content={bikevisu} />
+          <Project content={bikevisu} inverse />
         </div>
         <CookieConsent
           location="bottom"
