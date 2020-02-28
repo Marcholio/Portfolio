@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "build-css": "node-sass-chokidar ./src/styles -o ./src/styles",
     "watch-css": "npm run build-css && node-sass-chokidar ./src/styles -o ./src/styles --watch",
     "test": "node_modules/.bin/eslint ./",
