@@ -1,10 +1,14 @@
 import React from "react";
+import LazyLoad from "react-lazy-load";
+
 import "./styles/header.css";
 
 export default props => (
   <div className={`row project ${props.inverse ? "inverse" : ""}`}>
     <div className="five columns">
-      <img src={`/images/${props.content.image}`} alt={props.content.title} />
+      <LazyLoad offset={300}>
+        <img src={`/images/${props.content.image}`} alt={props.content.title} />
+      </LazyLoad>
     </div>
     <div className="seven columns">
       <a href={props.content.url} target="_blank" rel="noopener noreferrer">
