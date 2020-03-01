@@ -7,7 +7,7 @@ export default props => (
   <div className={`row project ${props.inverse ? "inverse" : ""}`}>
     <div className="five columns">
       <LazyLoad offset={300}>
-        <img src={`/images/${props.content.image}`} alt={props.content.title} />
+        <img src={props.img} alt={props.content.title} />
       </LazyLoad>
     </div>
     <div className="seven columns">

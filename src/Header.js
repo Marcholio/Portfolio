@@ -1,6 +1,11 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import content from "./content/header.json";
+
+import profileImg from "./static/profile.png";
+import CV from "./static/CV.pdf";
+import linkedinImg from "./static/linkedin.png";
+import githubImg from "./static/github.png";
 import "./styles/header.css";
 
 export default () => (
@@ -11,15 +16,10 @@ export default () => (
       <AnchorLink href="#projects">{content.engagement}</AnchorLink>
     </div>
     <div className="six columns">
-      <img
-        src="/images/profile.png"
-        alt="Profile"
-        title="Me"
-        id="profile-pic"
-      />
+      <img src={profileImg} alt="Profile" title="Me" id="profile-pic" />
       <div className="link-wrapper">
         <div>
-          <a href="/CV.pdf" className="button" download>
+          <a href={CV} className="button" download>
             {content.downloadCv}
           </a>
         </div>
@@ -29,7 +29,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/linkedin.png" alt="linkedin" title="LinkedIn" />
+            <img src={linkedinImg} alt="linkedin" title="LinkedIn" />
           </a>
         </div>
         <div>
@@ -38,7 +38,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/github.png" alt="github" title="GitHub" />
+            <img src={githubImg} alt="github" title="GitHub" />
           </a>
         </div>
       </div>
