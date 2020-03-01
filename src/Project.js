@@ -1,12 +1,16 @@
 import React from "react";
-import LazyLoad from "react-lazy-load";
+import LazyLoad from "react-lazyload";
 
 import "./styles/header.css";
 
 export default props => (
   <div className={`row project ${props.inverse ? "inverse" : ""}`}>
     <div className="five columns">
-      <LazyLoad offset={300}>
+      <LazyLoad
+        once
+        offset={300}
+        placeholder={<img src={props.thumbnail} alt={props.content.title} />}
+      >
         <img src={props.img} alt={props.content.title} />
       </LazyLoad>
     </div>

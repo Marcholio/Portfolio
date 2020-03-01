@@ -1,5 +1,4 @@
 .App {
-  background-image: url("/images/background.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
   text-align: center;
@@ -24,7 +23,8 @@
         margin-top: 2rem;
         border-radius: 8px;
         max-height: 21rem;
-        max-width: 100%; }
+        max-width: 100%;
+        min-width: 80%; }
     .App .project .seven {
       padding: 0 1rem; }
     .App .project .tag-wrapper {

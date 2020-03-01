@@ -21,6 +21,13 @@ import fridgepiImg from "./static/fridgePi.png";
 import bikeVisuImg from "./static/bike-visu.png";
 import background from "./static/background.jpg";
 
+import duunitinThumb from "./static/thumbnails/duunitin.jpg";
+import kmThumb from "./static/thumbnails/kasvunmahdollistajat.png";
+import portfolioThumb from "./static/thumbnails/portfolio.png";
+import turbocleanThumb from "./static/thumbnails/turboclean.png";
+import fridgePiThumb from "./static/thumbnails/fridgePi.png";
+import bikeVisuThumb from "./static/thumbnails/bike-visu.png";
+
 class App extends Component {
   render() {
     return (
@@ -29,17 +36,44 @@ class App extends Component {
           <Header />
           <hr />
           <div id="projects" />
-          <Project content={duunitin} img={duunitinImg} />
+          <Project
+            content={duunitin}
+            img={duunitinImg}
+            thumbnail={duunitinThumb}
+          />
           <hr />
-          <Project content={kasvunmahdollistajat} inverse img={kmImg} />
+          <Project
+            content={kasvunmahdollistajat}
+            inverse
+            img={kmImg}
+            thumbnail={kmThumb}
+          />
           <hr />
-          <Project content={portfolio} img={portfolioImg} />
+          <Project
+            content={portfolio}
+            img={portfolioImg}
+            thumbnail={portfolioThumb}
+          />
           <hr />
-          <Project content={turboclean} inverse img={turbocleanImg} />
+          <Project
+            content={turboclean}
+            inverse
+            img={turbocleanImg}
+            thumbnail={turbocleanThumb}
+          />
           <hr />
-          <Project content={fridgepi} img={fridgepiImg} />
+          <Project
+            content={fridgepi}
+            img={fridgepiImg}
+            thumbnail={fridgePiThumb}
+          />
           <hr />
-          <Project content={bikevisu} inverse img={bikeVisuImg} />
+          <Project
+            content={bikevisu}
+            inverse
+            img={bikeVisuImg}
+            thumbnail={bikeVisuThumb}
+          />
         </div>
         <CookieConsent
           location="bottom"

@@ -9,7 +9,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-cookie-consent": "^3.0.0",
     "react-dom": "^16.13.0",
-    "react-lazy-load": "^3.0.13",
+    "react-lazyload": "^2.6.5",
     "react-scripts": "3.4.0",
     "react-skeleton-css": "^1.1.0"
   },
