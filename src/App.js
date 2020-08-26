@@ -38,7 +38,6 @@ const App = () => {
 
   useEffect(() => {
     if (consentGiven) {
-      console.log("Tracking initialized");
       ReactGA.initialize("UA-72133544-1");
     }
   }, [consentGiven]);
