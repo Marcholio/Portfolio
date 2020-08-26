@@ -1,5 +1,6 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import ReactGA from "react-ga";
 import content from "./content/header.json";
 
 import profileImg from "./static/profile.png";
@@ -19,27 +20,32 @@ export default () => (
       <img src={profileImg} alt="Profile" title="Me" id="profile-pic" />
       <div className="link-wrapper">
         <div>
-          <a href={CV} className="button" download>
+          <ReactGA.OutboundLink
+            eventLabel="CV"
+            to={CV}
+            download
+            className={"button"}
+          >
             {content.downloadCv}
-          </a>
+          </ReactGA.OutboundLink>
         </div>
         <div>
-          <a
-            href="https://www.linkedin.com/in/tyrkkomarkus/"
+          <ReactGA.OutboundLink
+            eventLabel="LinkedIn"
+            to="https://www.linkedin.com/in/tyrkkomarkus/"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <img src={linkedinImg} alt="linkedin" title="LinkedIn" />
-          </a>
+          </ReactGA.OutboundLink>
         </div>
         <div>
-          <a
-            href="https://github.com/Marcholio"
+          <ReactGA.OutboundLink
+            eventLabel="GitHub"
+            to="https://github.com/Marcholio"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <img src={githubImg} alt="github" title="GitHub" />
-          </a>
+          </ReactGA.OutboundLink>
         </div>
       </div>
     </div>
