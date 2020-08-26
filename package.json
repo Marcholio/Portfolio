@@ -1,8 +1,10 @@
 {
   "name": "portfolio",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "private": false,
+  "repository": "https://github.com/Marcholio/Portfolio/",
   "homepage": "https://markustyrkko.com",
+  "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.13.0",
@@ -10,13 +12,13 @@
     "react-cookie-consent": "^3.0.0",
     "react-dom": "^16.13.0",
     "react-lazyload": "^2.6.5",
-    "react-scripts": "3.4.0",
+    "react-scripts": "^3.4.3",
     "react-skeleton-css": "^1.1.0"
   },
   "devDependencies": {
     "ajv": "^6.5.4",
     "eslint-plugin-prettier": "^3.0.0",
-    "node-sass-chokidar": "^1.3.4",
+    "node-sass-chokidar": "^1.5.0",
     "prettier": "^1.14.2"
   },
   "scripts": {
