@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.894f25d2.chunk.css",
-    "main.js": "/static/js/main.1ae99d4b.chunk.js",
+    "main.js": "/static/js/main.4bfaf674.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "static/css/2.9bbf4373.chunk.css": "/static/css/2.9bbf4373.chunk.css",
-    "static/js/2.e7fb32c0.chunk.js": "/static/js/2.e7fb32c0.chunk.js",
+    "static/js/2.0e6f5529.chunk.js": "/static/js/2.0e6f5529.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.ea705064f7211c01577d9e90b80cdc25.js": "/precache-manifest.ea705064f7211c01577d9e90b80cdc25.js",
+    "precache-manifest.5e02eca13b15b937a5eb9cafde0183c2.js": "/precache-manifest.5e02eca13b15b937a5eb9cafde0183c2.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.e7fb32c0.chunk.js.LICENSE.txt": "/static/js/2.e7fb32c0.chunk.js.LICENSE.txt",
+    "static/js/2.0e6f5529.chunk.js.LICENSE.txt": "/static/js/2.0e6f5529.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/static/media/CV.8dfd4197.pdf",
     "static/media/background.jpg": "/static/media/background.3e1f881e.jpg",
     "static/media/bike-visu.png": "/static/media/bike-visu.a967f3b8.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.9bbf4373.chunk.css",
-    "static/js/2.e7fb32c0.chunk.js",
+    "static/js/2.0e6f5529.chunk.js",
     "static/css/main.894f25d2.chunk.css",
-    "static/js/main.1ae99d4b.chunk.js"
+    "static/js/main.4bfaf674.chunk.js"
   ]
 }
