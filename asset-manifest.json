@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.894f25d2.chunk.css",
-    "main.js": "/static/js/main.13458974.chunk.js",
+    "main.js": "/static/js/main.aff8d366.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "static/css/2.9bbf4373.chunk.css": "/static/css/2.9bbf4373.chunk.css",
-    "static/js/2.b3a9c1f1.chunk.js": "/static/js/2.b3a9c1f1.chunk.js",
+    "static/js/2.b3521bed.chunk.js": "/static/js/2.b3521bed.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.806d7c47c5259c98925223b1296a8457.js": "/precache-manifest.806d7c47c5259c98925223b1296a8457.js",
+    "precache-manifest.ed5b5dd8b2254f398d74b5fcff742d41.js": "/precache-manifest.ed5b5dd8b2254f398d74b5fcff742d41.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.b3a9c1f1.chunk.js.LICENSE.txt": "/static/js/2.b3a9c1f1.chunk.js.LICENSE.txt",
+    "static/js/2.b3521bed.chunk.js.LICENSE.txt": "/static/js/2.b3521bed.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/static/media/CV.8dfd4197.pdf",
     "static/media/background.jpg": "/static/media/background.3e1f881e.jpg",
     "static/media/bike-visu.png": "/static/media/bike-visu.a967f3b8.png",
@@ -18,13 +18,14 @@
     "static/media/linkedin.png": "/static/media/linkedin.f08c524d.png",
     "static/media/portfolio.png": "/static/media/portfolio.d4afec2d.png",
     "static/media/profile.png": "/static/media/profile.5f467a1e.png",
-    "static/media/turboclean.png": "/static/media/turboclean.dcec919b.png"
+    "static/media/turboclean.png": "/static/media/turboclean.dcec919b.png",
+    "static/media/vuetodo.png": "/static/media/vuetodo.0a128abc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.9bbf4373.chunk.css",
-    "static/js/2.b3a9c1f1.chunk.js",
+    "static/js/2.b3521bed.chunk.js",
     "static/css/main.894f25d2.chunk.css",
-    "static/js/main.13458974.chunk.js"
+    "static/js/main.aff8d366.chunk.js"
   ]
 }
