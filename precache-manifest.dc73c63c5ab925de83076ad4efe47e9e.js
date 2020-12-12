@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0aec28cb04e76d1d99eae8c7ec8a0afc",
+    "revision": "8cd55a1da5931dc0a273050c27b54908",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9bbf4373.chunk.css"
   },
   {
-    "revision": "7f7ae38d8e93fe40bd20",
+    "revision": "4d2e03fe406ebeceb25f",
     "url": "/static/css/main.894f25d2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b3521bed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f7ae38d8e93fe40bd20",
-    "url": "/static/js/main.c186a61b.chunk.js"
+    "revision": "4d2e03fe406ebeceb25f",
+    "url": "/static/js/main.f4716af5.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -36,28 +36,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/background.75490b2a.webp"
   },
   {
+    "revision": "07a2584fe4413bf470e6ac73fa805829",
+    "url": "/static/media/bike-visu.07a2584f.webp"
+  },
+  {
     "revision": "3ce3b6081764c5aa9521f31c8078e994",
     "url": "/static/media/bike-visu.3ce3b608.png"
   },
   {
-    "revision": "a967f3b8ef1f4f421771add92aad0ffd",
-    "url": "/static/media/bike-visu.a967f3b8.png"
+    "revision": "bddb2200bc1c55477fb479adbbac5f07",
+    "url": "/static/media/duunitin.bddb2200.webp"
   },
   {
-    "revision": "e1df4f8e0ad24ec7b973a29b4b10825c",
-    "url": "/static/media/duunitin.e1df4f8e.jpg"
-  },
-  {
-    "revision": "830e1dfb9f8368181ca95f53330aaefc",
-    "url": "/static/media/fridgePi.830e1dfb.png"
+    "revision": "14c6f8881d746662d441024a94cd9f3b",
+    "url": "/static/media/fridgePi.14c6f888.webp"
   },
   {
     "revision": "8b3bca4b04d2ff484a497bfc3fdb4cc6",
     "url": "/static/media/fridgePi.8b3bca4b.png"
   },
   {
-    "revision": "60fae5fed71f5dbbec171995a1549472",
-    "url": "/static/media/kasvunmahdollistajat.60fae5fe.png"
+    "revision": "11ed0c82e03d2fec15002508789843e1",
+    "url": "/static/media/kasvunmahdollistajat.11ed0c82.webp"
   },
   {
     "revision": "76fbb121adf6b1b9e853bb1c1e0df58c",
@@ -68,19 +68,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.f08c524d.png"
   },
   {
-    "revision": "d4afec2d9f19307091aa8cc752b5601e",
-    "url": "/static/media/portfolio.d4afec2d.png"
+    "revision": "f4b0cfc7d92b625c387e39dfc5160ee8",
+    "url": "/static/media/portfolio.f4b0cfc7.webp"
   },
   {
     "revision": "5f467a1e4fcc555cda2a8266b14a2593",
     "url": "/static/media/profile.5f467a1e.png"
   },
   {
-    "revision": "dcec919b19c9c77e8da5b854ddbdad91",
-    "url": "/static/media/turboclean.dcec919b.png"
+    "revision": "2255b371c74cb4ef7f7a8adab52859b2",
+    "url": "/static/media/turboclean.2255b371.webp"
   },
   {
-    "revision": "0a128abc9c3c72ad7c4ee7066199454c",
-    "url": "/static/media/vuetodo.0a128abc.png"
+    "revision": "c36131b712bc503aea8410bf4bc5def0",
+    "url": "/static/media/vuetodo.c36131b7.webp"
   }
 ]);
