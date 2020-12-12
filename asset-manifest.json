@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.894f25d2.chunk.css",
-    "main.js": "/static/js/main.f4716af5.chunk.js",
+    "main.js": "/static/js/main.f02120ea.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "static/css/2.9bbf4373.chunk.css": "/static/css/2.9bbf4373.chunk.css",
     "static/js/2.b3521bed.chunk.js": "/static/js/2.b3521bed.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.dc73c63c5ab925de83076ad4efe47e9e.js": "/precache-manifest.dc73c63c5ab925de83076ad4efe47e9e.js",
+    "precache-manifest.dceea507eca47c6bbadb82a90429ed0a.js": "/precache-manifest.dceea507eca47c6bbadb82a90429ed0a.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.b3521bed.chunk.js.LICENSE.txt": "/static/js/2.b3521bed.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/static/media/CV.8dfd4197.pdf",
@@ -20,7 +20,7 @@
     "static/media/kasvunmahdollistajat.png": "/static/media/kasvunmahdollistajat.76fbb121.png",
     "static/media/linkedin.png": "/static/media/linkedin.f08c524d.png",
     "static/media/portfolio.webp": "/static/media/portfolio.f4b0cfc7.webp",
-    "static/media/profile.png": "/static/media/profile.5f467a1e.png",
+    "static/media/profile.webp": "/static/media/profile.1d32ec13.webp",
     "static/media/turboclean.webp": "/static/media/turboclean.2255b371.webp",
     "static/media/vuetodo.webp": "/static/media/vuetodo.c36131b7.webp"
   },
@@ -29,6 +29,6 @@
     "static/css/2.9bbf4373.chunk.css",
     "static/js/2.b3521bed.chunk.js",
     "static/css/main.894f25d2.chunk.css",
-    "static/js/main.f4716af5.chunk.js"
+    "static/js/main.f02120ea.chunk.js"
   ]
 }
