@@ -16,14 +16,14 @@ import fridgepi from "./content/fridgepi.json";
 import bikevisu from "./content/bike-visu.json";
 import vueTodo from "./content/vuetodo.json";
 
-import duunitinImg from "./static/duunitin.jpg";
-import kmImg from "./static/kasvunmahdollistajat.png";
-import portfolioImg from "./static/portfolio.png";
-import turbocleanImg from "./static/turboclean.png";
-import fridgepiImg from "./static/fridgePi.png";
-import bikeVisuImg from "./static/bike-visu.png";
-import vueTodoImg from "./static/vuetodo.png";
-import background from "./static/background.jpg";
+import duunitinImg from "./static/duunitin.webp";
+import kmImg from "./static/kasvunmahdollistajat.webp";
+import portfolioImg from "./static/portfolio.webp";
+import turbocleanImg from "./static/turboclean.webp";
+import fridgepiImg from "./static/fridgePi.webp";
+import bikeVisuImg from "./static/bike-visu.webp";
+import vueTodoImg from "./static/vuetodo.webp";
+import background from "./static/background.webp";
 
 import duunitinThumb from "./static/thumbnails/duunitin.jpg";
 import kmThumb from "./static/thumbnails/kasvunmahdollistajat.png";
