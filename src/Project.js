@@ -3,7 +3,7 @@ import LazyLoad from "react-lazyload";
 
 import "./styles/header.css";
 
-export default props => (
+const project = (props) => (
   <div className={`row project ${props.inverse ? "inverse" : ""}`}>
     <div className="five columns">
       <LazyLoad
@@ -20,7 +20,7 @@ export default props => (
       </a>
       <div>{props.content.description}</div>
       <div className="tag-wrapper">
-        {props.content.tags.map(t => (
+        {props.content.tags.map((t) => (
           <div className="tag" key={t}>
             {t}
           </div>
@@ -29,3 +29,5 @@ export default props => (
     </div>
   </div>
 );
+
+export default project;

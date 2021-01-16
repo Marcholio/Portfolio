@@ -9,7 +9,7 @@ import linkedinImg from "./static/linkedin.png";
 import githubImg from "./static/github.png";
 import "./styles/header.css";
 
-export default () => (
+const header = () => (
   <div className="row header">
     <div className="six columns">
       <h1>{content.welcome}</h1>
@@ -51,3 +51,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default header;
