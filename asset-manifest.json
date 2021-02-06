@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.894f25d2.chunk.css",
-    "main.js": "/static/js/main.5993edc6.chunk.js",
+    "main.js": "/static/js/main.b837a6d8.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "static/css/2.9bbf4373.chunk.css": "/static/css/2.9bbf4373.chunk.css",
-    "static/js/2.ff32f4ec.chunk.js": "/static/js/2.ff32f4ec.chunk.js",
+    "static/js/2.0bff46d9.chunk.js": "/static/js/2.0bff46d9.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.ff32f4ec.chunk.js.LICENSE.txt": "/static/js/2.ff32f4ec.chunk.js.LICENSE.txt",
+    "static/js/2.0bff46d9.chunk.js.LICENSE.txt": "/static/js/2.0bff46d9.chunk.js.LICENSE.txt",
     "static/media/CV.b4989da7.pdf": "/static/media/CV.b4989da7.pdf",
     "static/media/background.84c3af38.webp": "/static/media/background.84c3af38.webp",
     "static/media/bike-visu.04595ad6.png": "/static/media/bike-visu.04595ad6.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/css/2.9bbf4373.chunk.css",
-    "static/js/2.ff32f4ec.chunk.js",
+    "static/js/2.0bff46d9.chunk.js",
     "static/css/main.894f25d2.chunk.css",
-    "static/js/main.5993edc6.chunk.js"
+    "static/js/main.b837a6d8.chunk.js"
   ]
 }
