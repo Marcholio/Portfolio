@@ -4,9 +4,10 @@ import ReactGA from "react-ga";
 import content from "./content/header.json";
 
 import profileImg from "./static/profile.webp";
-import CV from "./static/CV.pdf";
 import linkedinImg from "./static/linkedin.png";
 import githubImg from "./static/github.png";
+import CV from "./static/CV.pdf";
+
 import "./styles/header.css";
 
 const header = () => (

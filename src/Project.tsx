@@ -3,7 +3,19 @@ import LazyLoad from "react-lazyload";
 
 import "./styles/header.css";
 
-const project = (props) => (
+type ProjectProps = {
+  inverse?: boolean;
+  content: {
+    title: string;
+    url: string;
+    tags: string[];
+    description: string;
+  };
+  img: string;
+  thumbnail: string;
+};
+
+const project = (props: ProjectProps) => (
   <div className={`row project ${props.inverse ? "inverse" : ""}`}>
     <div className="five columns">
       <LazyLoad
