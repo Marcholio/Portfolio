@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.894f25d2.chunk.css",
-    "main.js": "/static/js/main.b837a6d8.chunk.js",
+    "main.js": "/static/js/main.d742ef1c.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "static/css/2.9bbf4373.chunk.css": "/static/css/2.9bbf4373.chunk.css",
     "static/js/2.0bff46d9.chunk.js": "/static/js/2.0bff46d9.chunk.js",
@@ -9,14 +9,14 @@
     "static/js/2.0bff46d9.chunk.js.LICENSE.txt": "/static/js/2.0bff46d9.chunk.js.LICENSE.txt",
     "static/media/CV.b4989da7.pdf": "/static/media/CV.b4989da7.pdf",
     "static/media/background.84c3af38.webp": "/static/media/background.84c3af38.webp",
-    "static/media/bike-visu.04595ad6.png": "/static/media/bike-visu.04595ad6.png",
-    "static/media/bike-visu.8aa9ef40.webp": "/static/media/bike-visu.8aa9ef40.webp",
     "static/media/duunitin.ea8f57c4.webp": "/static/media/duunitin.ea8f57c4.webp",
     "static/media/fridgePi.5831cf9a.png": "/static/media/fridgePi.5831cf9a.png",
     "static/media/fridgePi.5ae1ca2c.webp": "/static/media/fridgePi.5ae1ca2c.webp",
     "static/media/kasvunmahdollistajat.7e26b661.png": "/static/media/kasvunmahdollistajat.7e26b661.png",
     "static/media/kasvunmahdollistajat.af7b668e.webp": "/static/media/kasvunmahdollistajat.af7b668e.webp",
     "static/media/linkedin.68ac41e1.png": "/static/media/linkedin.68ac41e1.png",
+    "static/media/polttoainesaa.5afca030.png": "/static/media/polttoainesaa.5afca030.png",
+    "static/media/polttoainesaa.a8fb0b9b.webp": "/static/media/polttoainesaa.a8fb0b9b.webp",
     "static/media/portfolio.464d9bcd.webp": "/static/media/portfolio.464d9bcd.webp",
     "static/media/profile.3e5e7985.webp": "/static/media/profile.3e5e7985.webp",
     "static/media/turboclean.190f15b3.webp": "/static/media/turboclean.190f15b3.webp",
@@ -27,6 +27,6 @@
     "static/css/2.9bbf4373.chunk.css",
     "static/js/2.0bff46d9.chunk.js",
     "static/css/main.894f25d2.chunk.css",
-    "static/js/main.b837a6d8.chunk.js"
+    "static/js/main.d742ef1c.chunk.js"
   ]
 }
