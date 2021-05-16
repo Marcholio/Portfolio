@@ -1,0 +1,6 @@
+{
+  "title": "Fuel price weather map",
+  "description": "A heatmap visualization of fuel prices in Espoo. The prices and locations of the stations are automatically updated using web scraping and Google maps Geocoding API. Visualization is made with OpenLayers.",
+  "tags": ["React", "NodeJS", "Visualization", "AWS"],
+  "url": "https://marcholio.github.io/polttoaine-saa-frontend"
+}

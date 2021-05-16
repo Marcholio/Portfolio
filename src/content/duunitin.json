@@ -2,6 +2,5 @@
   "title": "Duunitin",
   "description": "Our entry to Junction 2017, Europe's largest hackathon. An application that handles automatic CV parsing and also suggests new professions based on current experience. With Duunitin we won the productivity track and ended up into the finals.",
   "tags": ["NodeJS", "Python", "Big data", "AI", "React", "Heroku"],
-  "image": "duunitin.jpg",
   "url": "https://devpost.com/software/pat-reboot-your-career"
 }

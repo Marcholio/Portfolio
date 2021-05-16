@@ -13,7 +13,7 @@ import kasvunmahdollistajat from "./content/kasvunmahdollistajat.json";
 import portfolio from "./content/portfolio.json";
 import turboclean from "./content/turboclean.json";
 import fridgepi from "./content/fridgepi.json";
-import bikevisu from "./content/bike-visu.json";
+import polttoainesaa from "./content/polttoainesaa.json";
 import vueTodo from "./content/vuetodo.json";
 
 import duunitinImg from "./static/duunitin.webp";
@@ -21,7 +21,7 @@ import kmImg from "./static/kasvunmahdollistajat.webp";
 import portfolioImg from "./static/portfolio.webp";
 import turbocleanImg from "./static/turboclean.webp";
 import fridgepiImg from "./static/fridgePi.webp";
-import bikeVisuImg from "./static/bike-visu.webp";
+import polttoainesaaImg from "./static/polttoainesaa.webp";
 import vueTodoImg from "./static/vuetodo.webp";
 import background from "./static/background.webp";
 
@@ -30,7 +30,7 @@ import kmThumb from "./static/thumbnails/kasvunmahdollistajat.png";
 import portfolioThumb from "./static/thumbnails/portfolio.png";
 import turbocleanThumb from "./static/thumbnails/turboclean.png";
 import fridgePiThumb from "./static/thumbnails/fridgePi.png";
-import bikeVisuThumb from "./static/thumbnails/bike-visu.png";
+import polttoainesaaThumb from "./static/thumbnails/polttoainesaa.png";
 import vueTodoThumb from "./static/thumbnails/vuetodo.png";
 
 const App = () => {
@@ -87,9 +87,9 @@ const App = () => {
         />
         <hr />
         <Project
-          content={bikevisu}
-          img={bikeVisuImg}
-          thumbnail={bikeVisuThumb}
+          content={polttoainesaa}
+          img={polttoainesaaImg}
+          thumbnail={polttoainesaaThumb}
         />
       </div>
       <CookieConsent
