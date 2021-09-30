@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.b70edf4c.chunk.css",
-    "main.js": "/static/js/main.48f4f3e3.chunk.js",
+    "main.js": "/static/js/main.77ac36bc.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "static/css/2.3b4f739c.chunk.css": "/static/css/2.3b4f739c.chunk.css",
     "static/js/2.70f8e475.chunk.js": "/static/js/2.70f8e475.chunk.js",
     "index.html": "/index.html",
     "static/js/2.70f8e475.chunk.js.LICENSE.txt": "/static/js/2.70f8e475.chunk.js.LICENSE.txt",
-    "static/media/CV.0a02f357.pdf": "/static/media/CV.0a02f357.pdf",
+    "static/media/CV.9f4b0e00.pdf": "/static/media/CV.9f4b0e00.pdf",
     "static/media/background.84c3af38.webp": "/static/media/background.84c3af38.webp",
     "static/media/duunitin.ea8f57c4.webp": "/static/media/duunitin.ea8f57c4.webp",
     "static/media/fridgePi.5831cf9a.png": "/static/media/fridgePi.5831cf9a.png",
@@ -18,7 +18,7 @@
     "static/media/polttoainesaa.5afca030.png": "/static/media/polttoainesaa.5afca030.png",
     "static/media/polttoainesaa.a8fb0b9b.webp": "/static/media/polttoainesaa.a8fb0b9b.webp",
     "static/media/portfolio.464d9bcd.webp": "/static/media/portfolio.464d9bcd.webp",
-    "static/media/profile.3e5e7985.webp": "/static/media/profile.3e5e7985.webp",
+    "static/media/profile.bcdf2c73.webp": "/static/media/profile.bcdf2c73.webp",
     "static/media/turboclean.190f15b3.webp": "/static/media/turboclean.190f15b3.webp",
     "static/media/vuetodo.ddbf51d9.webp": "/static/media/vuetodo.ddbf51d9.webp"
   },
@@ -27,6 +27,6 @@
     "static/css/2.3b4f739c.chunk.css",
     "static/js/2.70f8e475.chunk.js",
     "static/css/main.b70edf4c.chunk.css",
-    "static/js/main.48f4f3e3.chunk.js"
+    "static/js/main.77ac36bc.chunk.js"
   ]
 }
