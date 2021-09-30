@@ -23,6 +23,10 @@
         text-decoration: underline;
         cursor: pointer;
       }
+
+      h2 {
+        font-size: 2.4rem;
+      }
     }
 
     .five {
@@ -31,9 +35,8 @@
       img {
         margin-top: 2rem;
         border-radius: 8px;
-        max-height: 21rem;
+        max-height: 22rem;
         max-width: 100%;
-        min-width: 80%;
       }
     }
 

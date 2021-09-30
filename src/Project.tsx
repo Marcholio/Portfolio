@@ -1,8 +1,6 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 
-import "./styles/header.css";
-
 type ProjectProps = {
   inverse?: boolean;
   content: {
@@ -28,7 +26,7 @@ const project = (props: ProjectProps) => (
     </div>
     <div className="seven columns">
       <a href={props.content.url} target="_blank" rel="noopener noreferrer">
-        <h4>{props.content.title}</h4>
+        <h2>{props.content.title}</h2>
       </a>
       <div>{props.content.description}</div>
       <div className="tag-wrapper">
