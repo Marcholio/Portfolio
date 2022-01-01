@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.b70edf4c.chunk.css",
-    "main.js": "/static/js/main.77ac36bc.chunk.js",
+    "main.js": "/static/js/main.a70a516f.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "static/css/2.3b4f739c.chunk.css": "/static/css/2.3b4f739c.chunk.css",
     "static/js/2.70f8e475.chunk.js": "/static/js/2.70f8e475.chunk.js",
     "index.html": "/index.html",
     "static/js/2.70f8e475.chunk.js.LICENSE.txt": "/static/js/2.70f8e475.chunk.js.LICENSE.txt",
-    "static/media/CV.9f4b0e00.pdf": "/static/media/CV.9f4b0e00.pdf",
+    "static/media/CV.2f5adaa5.pdf": "/static/media/CV.2f5adaa5.pdf",
     "static/media/background.84c3af38.webp": "/static/media/background.84c3af38.webp",
     "static/media/duunitin.ea8f57c4.webp": "/static/media/duunitin.ea8f57c4.webp",
     "static/media/fridgePi.5831cf9a.png": "/static/media/fridgePi.5831cf9a.png",
@@ -27,6 +27,6 @@
     "static/css/2.3b4f739c.chunk.css",
     "static/js/2.70f8e475.chunk.js",
     "static/css/main.b70edf4c.chunk.css",
-    "static/js/main.77ac36bc.chunk.js"
+    "static/js/main.a70a516f.chunk.js"
   ]
 }
