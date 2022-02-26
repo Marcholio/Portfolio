@@ -1,4 +1,4 @@
-This is my portfolio site deployed at https://markustyrkko.com
+This is my portfolio site deployed at https://markustyrkko.fi
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
