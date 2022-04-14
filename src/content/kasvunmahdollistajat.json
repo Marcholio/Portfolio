@@ -1,6 +1,6 @@
 {
   "title": "kasvunmahdollistajat.fi",
-  "description": "A simple website for consultancy company. Site is built using a WordPress template and custom CSS on top of it. In addition to creating the site, I was also responsible for visual design and site management tasks such as hosting.",
-  "tags": ["WordPress", "CSS"],
+  "description": "A simple website for a consultancy company. Initially created with Wordpress, but currently built with Next.js and hosted on GitHub pages. In addition to creating the site, I was also responsible for visual design and site management tasks such as hosting.",
+  "tags": ["Next.js", "Typescript", "GitHub pages"],
   "url": "https://kasvunmahdollistajat.fi"
 }
