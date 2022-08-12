@@ -9,6 +9,7 @@ import Project from "./Project";
 import "./styles/App.css";
 
 import duunitin from "./content/duunitin.json";
+import katsastustilastot from "./content/katsastustilastot.json";
 import kasvunmahdollistajat from "./content/kasvunmahdollistajat.json";
 import portfolio from "./content/portfolio.json";
 import turboclean from "./content/turboclean.json";
@@ -17,6 +18,7 @@ import polttoainesaa from "./content/polttoainesaa.json";
 import vueTodo from "./content/vuetodo.json";
 
 import duunitinImg from "./static/duunitin.webp";
+import katsastustilastotImg from "./static/katsastustilastot.png";
 import kmImg from "./static/kasvunmahdollistajat.webp";
 import portfolioImg from "./static/portfolio.webp";
 import turbocleanImg from "./static/turboclean.webp";
@@ -26,6 +28,7 @@ import vueTodoImg from "./static/vuetodo.webp";
 import background from "./static/background.webp";
 
 import duunitinThumb from "./static/thumbnails/duunitin.jpg";
+import katsastustilastotThumb from "./static/thumbnails/katsastustilastot.png";
 import kmThumb from "./static/thumbnails/kasvunmahdollistajat.png";
 import portfolioThumb from "./static/thumbnails/portfolio.png";
 import turbocleanThumb from "./static/thumbnails/turboclean.png";
@@ -51,7 +54,18 @@ const App = () => {
         <Header />
         <hr />
         <div id="projects" />
-        <Project content={vueTodo} img={vueTodoImg} thumbnail={vueTodoThumb} />
+        <Project
+          inverse
+          content={vueTodo}
+          img={vueTodoImg}
+          thumbnail={vueTodoThumb}
+        />
+        <hr />
+        <Project
+          content={katsastustilastot}
+          img={katsastustilastotImg}
+          thumbnail={katsastustilastotThumb}
+        />
         <hr />
         <Project
           inverse
