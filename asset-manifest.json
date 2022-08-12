@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c3eacd1e.css",
-    "main.js": "/static/js/main.1e18c138.js",
+    "main.js": "/static/js/main.6ac49c8b.js",
     "static/media/background.webp": "/static/media/background.84c3af38306314a7c740.webp",
+    "static/media/katsastustilastot.png": "/static/media/katsastustilastot.263c8cf743bcaa131b55.png",
     "static/media/CV.pdf": "/static/media/CV.0627a8fa9e70d831e96a.pdf",
     "static/media/turboclean.webp": "/static/media/turboclean.190f15b33b99789a7135.webp",
     "static/media/polttoainesaa.webp": "/static/media/polttoainesaa.a8fb0b9bc9e42326ea59.webp",
@@ -21,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.c3eacd1e.css",
-    "static/js/main.1e18c138.js"
+    "static/js/main.6ac49c8b.js"
   ]
 }
