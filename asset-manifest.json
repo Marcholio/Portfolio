@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3eacd1e.css",
-    "main.js": "/static/js/main.3fe3abe6.js",
+    "main.css": "/static/css/main.de1e221e.css",
+    "main.js": "/static/js/main.55b2cf97.js",
     "static/media/background.webp": "/static/media/background.84c3af38306314a7c740.webp",
     "static/media/katsastustilastot.png": "/static/media/katsastustilastot.263c8cf743bcaa131b55.png",
     "static/media/turboclean.webp": "/static/media/turboclean.190f15b33b99789a7135.webp",
@@ -19,7 +19,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.c3eacd1e.css",
-    "static/js/main.3fe3abe6.js"
+    "static/css/main.de1e221e.css",
+    "static/js/main.55b2cf97.js"
   ]
 }
