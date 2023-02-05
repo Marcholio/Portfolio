@@ -80,7 +80,7 @@
   .App {
     background-size: 100% 100vh;
 
-    .project:nth-child(2n + 1) {
+    .project:nth-child(2n) {
       display: block;
     }
 

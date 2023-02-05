@@ -52,7 +52,7 @@
 @media (max-width: 550px) {
   .App {
     background-size: 100% 100vh; }
-    .App .project:nth-child(2n + 1) {
+    .App .project:nth-child(2n) {
       display: block; }
     .App .project .five {
       min-height: 26rem; }
