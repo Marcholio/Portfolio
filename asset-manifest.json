@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c3eacd1e.css",
-    "main.js": "/static/js/main.dea6b8b7.js",
+    "main.js": "/static/js/main.3fe3abe6.js",
     "static/media/background.webp": "/static/media/background.84c3af38306314a7c740.webp",
     "static/media/katsastustilastot.png": "/static/media/katsastustilastot.263c8cf743bcaa131b55.png",
     "static/media/turboclean.webp": "/static/media/turboclean.190f15b33b99789a7135.webp",
@@ -10,18 +10,16 @@
     "static/media/duunitin.webp": "/static/media/duunitin.ea8f57c4578c02ef9103.webp",
     "static/media/vuetodo.webp": "/static/media/vuetodo.ddbf51d91a4c55fd0710.webp",
     "static/media/fridgePi.webp": "/static/media/fridgePi.5ae1ca2c57050ad3d505.webp",
-    "static/media/kasvunmahdollistajat.webp": "/static/media/kasvunmahdollistajat.af7b668ed85a8f81f4e9.webp",
     "static/media/polttoainesaa.png": "/static/media/polttoainesaa.5afca0301efaa735ce12.png",
     "static/media/portfolio.webp": "/static/media/portfolio.686e380df1cfbad3b735.webp",
     "static/media/profile.webp": "/static/media/profile.bcdf2c737b1de9155aaa.webp",
     "static/media/portfolio.png": "/static/media/portfolio.d75e5ad7e26892a4a136.png",
-    "static/media/kasvunmahdollistajat.png": "/static/media/kasvunmahdollistajat.7e26b661816a81d06d1e.png",
     "static/media/fridgePi.png": "/static/media/fridgePi.5831cf9a3ed7b0f7bd74.png",
     "static/media/linkedin.png": "/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.c3eacd1e.css",
-    "static/js/main.dea6b8b7.js"
+    "static/js/main.3fe3abe6.js"
   ]
 }
