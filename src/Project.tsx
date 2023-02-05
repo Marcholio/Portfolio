@@ -2,7 +2,6 @@ import React from "react";
 import LazyLoad from "react-lazyload";
 
 type ProjectProps = {
-  inverse?: boolean;
   content: {
     title: string;
     url: string;
@@ -14,7 +13,7 @@ type ProjectProps = {
 };
 
 const project = (props: ProjectProps) => (
-  <div className={`row project ${props.inverse ? "inverse" : ""}`}>
+  <div className={`row project`}>
     <div className="five columns">
       <LazyLoad
         once

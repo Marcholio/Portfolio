@@ -1,5 +1,5 @@
 import React from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link } from "react-scroll";
 import ReactGA from "react-ga";
 import content from "./content/header.json";
 
@@ -15,7 +15,9 @@ const header = () => (
     <div className="six columns">
       <h1>{content.welcome}</h1>
       <p>{content.intro}</p>
-      <AnchorLink href="#projects">{content.engagement}</AnchorLink>
+      <Link to="projects" duration={500} smooth>
+        {content.engagement}
+      </Link>
     </div>
     <div className="six columns">
       <img src={profileImg} alt="Profile" title="Me" id="profile-pic" />

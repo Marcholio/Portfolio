@@ -49,48 +49,33 @@ const App = () => {
     <div className="App" style={{ backgroundImage: `url(${background})` }}>
       <div className="container">
         <Header />
-        <hr />
         <div id="projects" />
-        <Project
-          inverse
-          content={vueTodo}
-          img={vueTodoImg}
-          thumbnail={vueTodoThumb}
-        />
-        <hr />
+        <Project content={vueTodo} img={vueTodoImg} thumbnail={vueTodoThumb} />
         <Project
           content={katsastustilastot}
           img={katsastustilastotImg}
           thumbnail={katsastustilastotThumb}
         />
-        <hr />
         <Project
-          inverse
           content={duunitin}
           img={duunitinImg}
           thumbnail={duunitinThumb}
         />
-        <hr />
         <Project
-          inverse
           content={portfolio}
           img={portfolioImg}
           thumbnail={portfolioThumb}
         />
-        <hr />
         <Project
           content={turboclean}
           img={turbocleanImg}
           thumbnail={turbocleanThumb}
         />
-        <hr />
         <Project
-          inverse
           content={fridgepi}
           img={fridgepiImg}
           thumbnail={fridgePiThumb}
         />
-        <hr />
         <Project
           content={polttoainesaa}
           img={polttoainesaaImg}
