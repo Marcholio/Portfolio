@@ -29,13 +29,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn build-css && GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "yarn build-css && GENERATE_SOURCEMAP=false react-scripts build && cp CNAME build/CNAME",
     "build-css": "node-sass ./src/styles -o ./src/styles",
     "watch-css": "yarn build-css && node-sass ./src/styles -o ./src/styles --watch --recursive",
     "test": "node_modules/.bin/eslint ./",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "yarn build && cp CNAME build/CNAME"
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"

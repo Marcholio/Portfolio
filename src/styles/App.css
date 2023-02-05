@@ -6,68 +6,57 @@
   width: 100%;
   color: white;
   padding-bottom: 2rem; }
-
-.App .project {
-  max-height: 30rem;
-  border-top: 1px solid white;
-  padding: 4rem 0; }
-
-.App .project a {
-  color: white;
-  text-decoration: none; }
-
-.App .project a:hover {
-  text-decoration: underline;
-  cursor: pointer; }
-
-.App .project a h2 {
-  font-size: 2.4rem; }
-
-.App .project .five {
-  max-height: 30rem; }
-
-.App .project .five img {
-  margin-top: 2rem;
-  border-radius: 8px;
-  max-height: 22rem;
-  max-width: 100%; }
-
-.App .project .seven {
-  padding: 0 1rem; }
-
-.App .project .tag-wrapper {
-  margin: 2rem 0; }
-
-.App .project .tag {
-  display: inline-block;
-  border: 1px solid white;
-  border-radius: 4px;
-  font-weight: bold;
-  padding: 0.25rem 1rem;
-  margin: 0.5rem; }
-
-.App .project:nth-child(2n) {
-  display: flex;
-  flex-direction: row-reverse; }
-
-.App .project:nth-child(3) {
-  border-top: none; }
+  .App .project {
+    max-height: 30rem;
+    border-top: 1px solid white;
+    padding: 4rem 0; }
+    .App .project a {
+      color: white;
+      text-decoration: none; }
+      .App .project a:hover {
+        text-decoration: underline;
+        cursor: pointer; }
+      .App .project a h2 {
+        font-size: 2.4rem; }
+    .App .project .five {
+      max-height: 30rem; }
+      .App .project .five img {
+        margin-top: 2rem;
+        border-radius: 8px;
+        max-height: 22rem;
+        max-width: 100%; }
+    .App .project .seven {
+      padding: 0 1rem; }
+    .App .project .tag-wrapper {
+      margin: 2rem 0; }
+    .App .project .tag {
+      display: inline-block;
+      border: 1px solid white;
+      border-radius: 4px;
+      font-weight: bold;
+      padding: 0.25rem 1rem;
+      margin: 0.5rem; }
+  .App .project:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse; }
+  .App .project:nth-child(3) {
+    border-top: none; }
 
 @media (max-width: 1000px) {
   .App .project {
     max-height: unset;
     height: unset; }
-  .App .project .five img {
-    margin-top: 6rem; } }
+    .App .project .five img {
+      margin-top: 6rem; } }
 
 @media (max-width: 550px) {
   .App {
     background-size: 100% 100vh; }
-  .App .project:nth-child(2n + 1) {
-    display: block; }
-  .App .project .five {
-    min-height: 26rem; }
-  .App .project .five img {
-    margin-top: 3rem; }
-  .App .project .seven {
-    min-height: 30rem; } }
+    .App .project:nth-child(2n + 1) {
+      display: block; }
+    .App .project .five {
+      min-height: 26rem; }
+      .App .project .five img {
+        margin-top: 3rem; }
+    .App .project .seven {
+      min-height: 30rem; } }
