@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.326505e6.css",
-    "main.js": "/static/js/main.55b2cf97.js",
+    "main.js": "/static/js/main.ca6d1975.js",
     "static/media/background.webp": "/static/media/background.84c3af38306314a7c740.webp",
     "static/media/katsastustilastot.png": "/static/media/katsastustilastot.263c8cf743bcaa131b55.png",
     "static/media/turboclean.webp": "/static/media/turboclean.190f15b33b99789a7135.webp",
+    "static/media/CV.pdf": "/static/media/CV.be244fa66e8cd13879da.pdf",
     "static/media/polttoainesaa.webp": "/static/media/polttoainesaa.a8fb0b9bc9e42326ea59.webp",
-    "static/media/CV.pdf": "/static/media/CV.45d8d9c0ef25eb21e1b3.pdf",
     "static/media/duunitin.webp": "/static/media/duunitin.ea8f57c4578c02ef9103.webp",
     "static/media/vuetodo.webp": "/static/media/vuetodo.ddbf51d91a4c55fd0710.webp",
     "static/media/fridgePi.webp": "/static/media/fridgePi.5ae1ca2c57050ad3d505.webp",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.326505e6.css",
-    "static/js/main.55b2cf97.js"
+    "static/js/main.ca6d1975.js"
   ]
 }
