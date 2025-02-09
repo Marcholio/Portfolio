@@ -3,11 +3,6 @@ import { Link } from "react-scroll";
 import ReactGA from "react-ga";
 import content from "./content/header.json";
 
-import profileImg from "./static/profile.webp";
-import linkedinImg from "./static/linkedin.png";
-import githubImg from "./static/github.png";
-import CV from "./static/CV.pdf";
-
 import "./styles/header.css";
 
 const header = () => (
@@ -20,12 +15,12 @@ const header = () => (
       </Link>
     </div>
     <div className="six columns">
-      <img src={profileImg} alt="Profile" title="Me" id="profile-pic" />
+      <img src={"profile.webp"} alt="Profile" title="Me" id="profile-pic" />
       <div className="link-wrapper">
         <div>
           <ReactGA.OutboundLink
             eventLabel="CV"
-            to={CV}
+            to={"CV.pdf"}
             download
             className={"button"}
           >
@@ -38,7 +33,7 @@ const header = () => (
             to="https://www.linkedin.com/in/tyrkkomarkus/"
             target="_blank"
           >
-            <img src={linkedinImg} alt="linkedin" title="LinkedIn" />
+            <img src={"linkedin.png"} alt="linkedin" title="LinkedIn" />
           </ReactGA.OutboundLink>
         </div>
         <div>
@@ -47,7 +42,7 @@ const header = () => (
             to="https://github.com/Marcholio"
             target="_blank"
           >
-            <img src={githubImg} alt="github" title="GitHub" />
+            <img src={"github.png"} alt="github" title="GitHub" />
           </ReactGA.OutboundLink>
         </div>
       </div>

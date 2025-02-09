@@ -5,6 +5,7 @@
   "homepage": "https://markustyrkko.fi",
   "license": "UNLICENSED",
   "dependencies": {
+    "next": "15.1.6",
     "react": "19.0.0",
     "react-cookie": "7.2.2",
     "react-cookie-consent": "9.0.0",
@@ -20,25 +21,24 @@
     "@types/react-dom": "19.0.3",
     "@types/react-lazyload": "3.2.1",
     "@types/react-scroll": "1.8.10",
+    "eslint": "9.20.0",
     "eslint-plugin-prettier": "4.2.1",
+    "file-loader": "^6.2.0",
     "gh-pages": "6.3.0",
     "node-sass": "9.0.0",
+    "pdf-loader": "^1.0.2",
     "prettier": "3.5.0",
-    "react-scripts": "5.0.1",
     "typescript": "5.7.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "yarn build-css && GENERATE_SOURCEMAP=false react-scripts build && cp CNAME build/CNAME",
+    "dev": "next dev",
+    "build": "yarn build-css && GENERATE_SOURCEMAP=false next build && cp CNAME build/CNAME",
+    "start": "npx serve@latest ./build",
     "build-css": "node-sass ./src/styles -o ./src/styles",
     "watch-css": "yarn build-css && node-sass ./src/styles -o ./src/styles --watch --recursive",
     "test": "node_modules/.bin/eslint ./",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "yarn build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",

@@ -16,23 +16,6 @@ import fridgepi from "./content/fridgepi.json";
 import polttoainesaa from "./content/polttoainesaa.json";
 import vueTodo from "./content/vuetodo.json";
 
-import duunitinImg from "./static/duunitin.webp";
-import katsastustilastotImg from "./static/katsastustilastot.png";
-import portfolioImg from "./static/portfolio.webp";
-import turbocleanImg from "./static/turboclean.webp";
-import fridgepiImg from "./static/fridgePi.webp";
-import polttoainesaaImg from "./static/polttoainesaa.webp";
-import vueTodoImg from "./static/vuetodo.webp";
-import background from "./static/background.webp";
-
-import duunitinThumb from "./static/thumbnails/duunitin.jpg";
-import katsastustilastotThumb from "./static/thumbnails/katsastustilastot.png";
-import portfolioThumb from "./static/thumbnails/portfolio.png";
-import turbocleanThumb from "./static/thumbnails/turboclean.png";
-import fridgePiThumb from "./static/thumbnails/fridgePi.png";
-import polttoainesaaThumb from "./static/thumbnails/polttoainesaa.png";
-import vueTodoThumb from "./static/thumbnails/vuetodo.png";
-
 const App = () => {
   const [cookies] = useCookies(["CookieConsent", "CookieConsent-legacy"]);
   const [consentGiven, setConsentGiven] = useState(
@@ -46,40 +29,44 @@ const App = () => {
   }, [consentGiven]);
 
   return (
-    <div className="App" style={{ backgroundImage: `url(${background})` }}>
+    <div className="App" style={{ backgroundImage: `url(background.webp)` }}>
       <div className="container">
         <Header />
         <div id="projects" />
-        <Project content={vueTodo} img={vueTodoImg} thumbnail={vueTodoThumb} />
+        <Project
+          content={vueTodo}
+          img={"vuetodo.webp"}
+          thumbnail={"thumbnails/vuetodo.png"}
+        />
         <Project
           content={katsastustilastot}
-          img={katsastustilastotImg}
-          thumbnail={katsastustilastotThumb}
+          img={"katsastustilastot.png"}
+          thumbnail={"thumbnails/katsastustilastot.png"}
         />
         <Project
           content={duunitin}
-          img={duunitinImg}
-          thumbnail={duunitinThumb}
+          img={"duunitin.webp"}
+          thumbnail={"thumbnails/duunitin.jpg"}
         />
         <Project
           content={portfolio}
-          img={portfolioImg}
-          thumbnail={portfolioThumb}
+          img={"portfolio.webp"}
+          thumbnail={"thumbnails/portfolio.png"}
         />
         <Project
           content={turboclean}
-          img={turbocleanImg}
-          thumbnail={turbocleanThumb}
+          img={"turboclean.webp"}
+          thumbnail={"thumbnails/turboclean.png"}
         />
         <Project
           content={fridgepi}
-          img={fridgepiImg}
-          thumbnail={fridgePiThumb}
+          img={"fridgePi.webp"}
+          thumbnail={"thumbnails/fridgePi.png"}
         />
         <Project
           content={polttoainesaa}
-          img={polttoainesaaImg}
-          thumbnail={polttoainesaaThumb}
+          img={"polttoainesaa.webp"}
+          thumbnail={"thumbnails/polttoainesaa.png"}
         />
       </div>
       <CookieConsent
