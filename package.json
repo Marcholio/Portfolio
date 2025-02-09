@@ -5,10 +5,10 @@
   "homepage": "https://markustyrkko.fi",
   "license": "UNLICENSED",
   "dependencies": {
-    "react": "18.3.1",
+    "react": "19.0.0",
     "react-cookie": "4.1.1",
     "react-cookie-consent": "8.0.1",
-    "react-dom": "18.3.1",
+    "react-dom": "19.0.0",
     "react-ga": "3.3.1",
     "react-lazyload": "3.2.1",
     "react-scripts": "5.0.1",
@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@types/node": "22.13.1",
-    "@types/react": "18.3.12",
-    "@types/react-dom": "18.3.1",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "@types/react-lazyload": "3.2.1",
     "@types/react-scroll": "1.8.10",
     "eslint-plugin-prettier": "4.2.1",
@@ -46,8 +46,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "packageManager": "yarn@4.6.0",
-  "resolutions": {
-    "@types/react": "18.3.12"
-  }
+  "packageManager": "yarn@4.6.0"
 }
