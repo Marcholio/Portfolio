@@ -1,6 +1,6 @@
 {
-  "title": "Katsastustilastot",
+  "title": "Katsastustilastot.eu",
   "description": "Data analysis and visualization for a comparison tool based on Trafi's inspection statistics",
   "tags": ["React", "Typescript", "Open data"],
-  "url": "https://marcholio.github.io/katsastustilastot"
+  "url": "https://katsastustilastot.eu"
 }

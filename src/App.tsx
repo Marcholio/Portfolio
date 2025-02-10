@@ -15,6 +15,7 @@ import turboclean from "./content/turboclean.json";
 import fridgepi from "./content/fridgepi.json";
 import polttoainesaa from "./content/polttoainesaa.json";
 import vueTodo from "./content/vuetodo.json";
+import bikeVisu from "./content/bike-visu.json";
 
 const App = () => {
   const [cookies] = useCookies(["CookieConsent", "CookieConsent-legacy"]);
@@ -34,24 +35,24 @@ const App = () => {
         <Header />
         <div id="projects" />
         <Project
-          content={vueTodo}
-          img={"vuetodo.webp"}
-          thumbnail={"thumbnails/vuetodo.png"}
-        />
-        <Project
           content={katsastustilastot}
           img={"katsastustilastot.png"}
           thumbnail={"thumbnails/katsastustilastot.png"}
         />
         <Project
-          content={duunitin}
-          img={"duunitin.webp"}
-          thumbnail={"thumbnails/duunitin.jpg"}
-        />
-        <Project
           content={portfolio}
           img={"portfolio.webp"}
           thumbnail={"thumbnails/portfolio.png"}
+        />
+        <Project
+          content={polttoainesaa}
+          img={"polttoainesaa.webp"}
+          thumbnail={"thumbnails/polttoainesaa.png"}
+        />
+        <Project
+          content={vueTodo}
+          img={"vuetodo.webp"}
+          thumbnail={"thumbnails/vuetodo.png"}
         />
         <Project
           content={turboclean}
@@ -64,9 +65,14 @@ const App = () => {
           thumbnail={"thumbnails/fridgePi.png"}
         />
         <Project
-          content={polttoainesaa}
-          img={"polttoainesaa.webp"}
-          thumbnail={"thumbnails/polttoainesaa.png"}
+          content={duunitin}
+          img={"duunitin.webp"}
+          thumbnail={"thumbnails/duunitin.jpg"}
+        />
+        <Project
+          content={bikeVisu}
+          img="bike-visu.webp"
+          thumbnail="thumbnails/bike-visu.png"
         />
       </div>
       <CookieConsent

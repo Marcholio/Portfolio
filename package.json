@@ -22,6 +22,7 @@
     "@types/react-lazyload": "3.2.1",
     "@types/react-scroll": "1.8.10",
     "eslint": "9.20.0",
+    "eslint-config-next": "^15.1.6",
     "eslint-plugin-prettier": "4.2.1",
     "file-loader": "^6.2.0",
     "gh-pages": "6.3.0",
@@ -32,13 +33,13 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "yarn build-css && GENERATE_SOURCEMAP=false next build && cp CNAME build/CNAME",
+    "build": "yarn build-css && GENERATE_SOURCEMAP=false next build && cp CNAME build/CNAME && touch build/.nojekyll",
     "start": "npx serve@latest ./build",
     "build-css": "node-sass ./src/styles -o ./src/styles",
     "watch-css": "yarn build-css && node-sass ./src/styles -o ./src/styles --watch --recursive",
     "test": "node_modules/.bin/eslint ./",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -t"
   },
   "browserslist": [
     ">0.2%",

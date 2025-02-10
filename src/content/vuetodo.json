@@ -1,6 +1,6 @@
 {
   "title": "TODO Application",
-  "description": "A simple todo application to learn interesting web technologies. Trying out Deno, GraphQL and Vue.js for the first time was interesting and definitely something I would like to dive deeper into. Automatically deployed to GitHub pages with GitHub actions. The backend no longer works because Heroku removed free dynos.",
+  "description": "A simple todo application to learn interesting web technologies. Trying out Deno, GraphQL and Vue.js for the first time was interesting and definitely something I would like to dive deeper into. Automatically deployed to GitHub pages with GitHub actions. Unfortunately the backend no longer works because Heroku removed free dynos.",
   "tags": ["Vue.js", "Deno", "GraphQL", "Heroku", "GitHub actions"],
   "url": "https://github.com/Marcholio/vue-todo"
 }
