@@ -3,6 +3,8 @@
   padding-bottom: 25vh; }
   .header > * {
     height: 50vh; }
+  .header .cta {
+    cursor: pointer; }
   .header #profile-pic {
     border-radius: 50%;
     max-width: 50%; }

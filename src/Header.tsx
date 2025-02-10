@@ -10,7 +10,7 @@ const header = () => (
     <div className="six columns">
       <h1>{content.welcome}</h1>
       <p>{content.intro}</p>
-      <Link to="projects" duration={500} smooth>
+      <Link className="cta" to="projects" duration={500} smooth>
         {content.engagement}
       </Link>
     </div>
