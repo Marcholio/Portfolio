@@ -33,12 +33,12 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "yarn build-css && GENERATE_SOURCEMAP=false next build && cp CNAME build/CNAME && touch build/.nojekyll",
-    "start": "npx serve@latest ./build",
+    "build-app": "GENERATE_SOURCEMAP=false next build && cp CNAME build/CNAME && touch build/.nojekyll",
+    "start": "bunx serve@latest ./build",
     "build-css": "node-sass ./src/styles -o ./src/styles",
-    "watch-css": "yarn build-css && node-sass ./src/styles -o ./src/styles --watch --recursive",
+    "watch-css": "bun build-css && node-sass ./src/styles -o ./src/styles --watch --recursive",
     "test": "node_modules/.bin/eslint ./",
-    "predeploy": "yarn build",
+    "predeploy": "bun build-app",
     "deploy": "gh-pages -d build -t"
   },
   "browserslist": [
@@ -46,6 +46,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "packageManager": "yarn@4.6.0"
+  ]
 }
